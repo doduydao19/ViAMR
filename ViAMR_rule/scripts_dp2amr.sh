@@ -17,5 +17,5 @@ echo 'Make, done!'
 
 echo 'Evaluate'
 output_file='result_eval.txt'
-smatch.py --ms --pr -f test_500.amr gold_500.amr > $output
-echo 'Evaluate, done! The output is written to the file $output'
+smatch.py --ms --pr -f test_500.amr gold_500.amr > $output_file
+echo 'Evaluate, done! The output is written to the file:' $output_file

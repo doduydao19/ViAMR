@@ -134,7 +134,7 @@ def statistic_complete(amrs):
 if __name__ == '__main__':
 
     # path_amrs= '/home/dao/PycharmProjects/ViAMR/ViAMR_rule/data/result_AMR_format.txt'
-    path_amrs= '/home/dao/PycharmProjects/ViAMR/ViAMR_rule/test_500.amr'
+    path_amrs= 'test_500.amr'
     sents = get_sents_of_amrs(path_amrs)
     # print(len(sents))
 

@@ -27,7 +27,7 @@ def load_amr(path):
 
 gold_path = 'gold_500.amr'
 test_path_fit_gold = "test_500.amr"
-test_path = '/home/dao/PycharmProjects/ViAMR/ViAMR_rule/data/result_AMR_format.txt'
+test_path = 'data/result_AMR_format.txt'
 gold_amrs = load_amr(gold_path)
 
 test_amrs = load_amr(test_path)

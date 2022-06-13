@@ -132,8 +132,8 @@ def statistic_complete(amrs):
 
 
 if __name__ == '__main__':
-    path_result_eval = '/home/dao/PycharmProjects/ViAMR/ViAMR_rule/result_eval.txt'
-    path_amrs= '/home/dao/PycharmProjects/ViAMR/ViAMR_rule/test_500.amr'
+    path_result_eval = 'result_eval.txt'
+    path_amrs= 'test_500.amr'
 
     scores = get_result_eval(path_result_eval)
     print('Tổng số amr:', len(scores))
