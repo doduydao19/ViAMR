@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a357764b-c940-448a-bc2a-bf27a23b09fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViAMR_rule/VnCoreNLP/models/wordsegmenter/vi-vocab" beforeDir="false" afterPath="$PROJECT_DIR$/ViAMR_rule/VnCoreNLP/models/wordsegmenter/vi-vocab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViAMR_rule/VnCoreNLP/models/wordsegmenter/wordsegmenter.rdr" beforeDir="false" afterPath="$PROJECT_DIR$/ViAMR_rule/VnCoreNLP/models/wordsegmenter/wordsegmenter.rdr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViAMR_rule/VnCoreNLP/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ViAMR_rule/VnCoreNLP/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViAMR_rule/VnCoreNLP/src/main/java/vn/corenlp/parser/DependencyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ViAMR_rule/VnCoreNLP/src/main/java/vn/corenlp/parser/DependencyParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViAMR_rule/VnCoreNLP/src/main/java/vn/corenlp/wordsegmenter/Vocabulary.java" beforeDir="false" afterPath="$PROJECT_DIR$/ViAMR_rule/VnCoreNLP/src/main/java/vn/corenlp/wordsegmenter/Vocabulary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViAMR_rule/pre_evaluate.py" beforeDir="false" afterPath="$PROJECT_DIR$/ViAMR_rule/pre_evaluate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViAMR_rule/scripts_dp2amr.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ViAMR_rule/scripts_dp2amr.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViAMR_rule/smatch/smatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/ViAMR_rule/smatch/smatch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViAMR_rule/smatch/test_input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ViAMR_rule/smatch/test_input1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViAMR_rule/smatch/test_input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ViAMR_rule/smatch/test_input2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViAMR_rule/statistic_amr_evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/ViAMR_rule/statistic_amr_evaluation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ViAMR_rule/statistic_amr_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/ViAMR_rule/statistic_amr_results.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
