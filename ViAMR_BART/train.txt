@@ -1,0 +1,3230 @@
+#sent: đây là bản sao của bức tranh đó .
+(b / bản sao
+	:poss (t / tranh
+		:classifier (b2 / bức)
+		:domain (đ2 / đó))
+	:domain (đ / đây))
+
+#sent: họ trả lời :
+(t / trả lời
+	:ARG0 (h / họ))
+
+#sent: bức vẽ của tôi không vẽ một cái mũ .
+(v / vẽ
+	:polarity -
+	:ARG0 (v2 / vẽ
+		:classifier (b / bức)
+		:poss (t / tôi))
+	:topic (m / mũ
+		:classifier (c / cái)))
+
+#sent: người ta nói trong sách : " con trăn nuốt chửng cả con mồi mà không nhai .
+(n / nói
+	:ARG0 (n2 / người ta)
+		:location (s / sách
+		:direction (t / trong))
+	:ARG1 (n3 / nuốt chửng
+		:ARG0 (t2 / trăn
+			:classifier (c / con))
+		:ARG1 (m / mồi
+			:classifier (c2 / con)
+			:mod (c3 / cả))
+		:manner (n4 / nhai
+			:polarity -)))
+
+#sent: và bạn sẽ thấy tất cả đều thay đổi ...
+(v / và
+	:op1 (t / thấy
+		:ARG0 (b / bạn)
+		:tense (s / sẽ)
+		:ARG1 (t2 / thay đổi
+			:quant (t3 / tất cả)
+			:mod (đ / đều))))
+
+#sent: hãy tự hỏi : con cừu đã có ăn hay không ăn đoá hoa ?
+(h / hỏi
+	:manner (t / tự)
+	:ARG1 (ă / ăn
+		:ARG0 (c / cừu
+			:classifier (c2 / con))
+		:tense (đ / đã)
+		:ARG1 (h2 / hoa
+			:classifier (đ2 / đóa))
+		:mode (i / interrogative)))
+
+#sent: và không một người lớn nào lại hiểu được chuyện ấy quan trọng đến nhường nào .
+(v / và
+	:op1 (h / hiểu
+		:ARG0 (n / người lớn)
+		:polarity -
+		:mod (n2 / nào)
+		:ARG1 (c / chuyện
+			:mod (ấ / ấy))
+		:mod (q / quan trọng
+			:mod (n3 / nhường
+				:mod (n4 / nào)))))
+
+#sent: hãy nhìn lên trời .
+(n / nhìn 
+	:direction (l / lên)
+	:ARG1 (t / trời)
+	:mod (h / hãy))
+
+#sent: đó là một bí ẩn lớn lao .
+(b / bí ẩn
+	:mod (l / lớn lao)
+	:domain(đ / đó))
+
+#sent: thế là tôi vui sướng .
+(v / vui sướng
+	:ARG0 (t / tôi)
+	:mod (t2 / thế là))
+
+#sent: và tất cả các ngôi sao mỉm cười dịu dàng .
+(v / và
+	:op1 (m / mỉm
+		:mod (c / cười)
+		:ARG0 (s / sao
+			:classifier (n / ngôi)
+			:quant (t / tất cả))
+		:mod(d / dịu dàng)))
+
+#sent: thế là những cái chuông nhỏ đều biến thành nước mắt ! ...
+(b / biến
+	:ARG0 (c / chuông
+		:classifier (c2 / cái)
+		:mod (n / nhỏ))
+	:ARG1 (t / thành
+		:ARG1 (n2 / nước mắt)))
+
+#sent: Có lẽ con cừu đã ăn mất đoá hoa chăng ... "
+(ă / ăn
+	:ARG0 (c / cừu
+		:classifier (c2 / con))
+	:tense (đ / đã)
+	:mod (m / mất)
+	:ARG1 (h / hoa
+		:classifier (đ2 / đóa))
+	:mod (C / Có lẽ))
+
+#sent: song trên hết , đây là một cuốn sách ca ngợi tình yêu và cái đẹp , niềm hy vọng lớn của con người .
+(s / sách
+	:classifier (c / cuốn)
+	:domain (đ / đây)
+	:ARG1 (c2 / ca ngợi
+		:op1 (t / tình yêu)
+		:op2 (c3 / cái
+			:mod (đ2 / đẹp))
+		:op3 (h / hy vọng
+			:classifier (n / niềm)
+			:mod(l / lớn)
+			:poss (c4 / con người))))
+
+#sent: nó vẽ một con trăn đang nuốt một con thú .
+(v / vẽ
+	:domain (n / nó)
+	:topic (t / trăn
+		:classifier (c / con)
+		:ARG0-of (n2 / nuốt
+			:tense (đ / đang)
+			:ARG1 (t2 / thú
+				:classifier (c2 / con)))))
+
+#sent: sau đó nó không thể nhúc nhích được nữa và nó nằm ngủ sáu tháng liền trong khi chờ tiêu hoá .
+(v / và
+	:op1 (n / nhúc nhích
+		:polarity -
+		:ARG0 (n2 / nó )
+		:time (s / sau
+			:op1(đ / đó)))
+	:op2 (n3 / ngủ
+		:ARG0 n2
+		:duration (t / temporal-quantity
+			:quant (s2 / sáu)
+			:unit (t2 / tháng))
+		:purpose (t3 / tiêu hóa)))
+
+#sent: nó vẽ một con trăn đang nằm chờ tiêu hoá một con voi .
+(v / vẽ
+	:ARG0 (n / nó)
+	:ARG0-of (n2 / nằm
+		:ARG0 (t / trăn
+			:classifier (c2 / con))
+		:tense (đ / đang)
+		:ARG1-of (c / chờ
+			:ARG2-of (t2 / tiêu hoá
+				:ARG1 (v2 / voi
+					:classifier (c3 / con))))))
+
+#sent: tôi đem khoe kiệt tác của mình với những người lớn và hỏi họ rằng nó có làm họ kinh hãi không .
+(v / và
+	:op1 (đ / đem
+		:ARG0 (t / tôi)
+		:purpose (k / khoe
+			:ARG1 (k2 / kiệt tác
+				:poss t)
+			:ARG2 (n / người lớn)))
+	:op2 (h / hỏi
+		:ARG0 t
+		:ARG1 (l / làm
+			:ARG0 k2
+			:ARG1 n
+			:ARG2 (k3 / kinh hãi))
+		:ARG2 n))
+
+#sent: sao lại phải sợ một cái mũ chứ ?
+(s / sợ
+	:obligate (p / phải)
+	:ARG1 (m / mũ
+		:classifier (c / cái))
+	:ARG1-of (c2 / cause-01
+ :ARG0 (a / amr-unknown)))
+
+#sent: thế là tôi phải vẽ phía trong của con trăn , để cho người lớn có thể hiểu .
+(v / vẽ
+	:obligate (p / phải)
+	:ARG0 (t / tôi)
+	:direction (t2 / trong
+		:poss (t3 / trăn
+			:classifier (c2 / con)))
+	:purpose (h / hiểu
+		:possible (c / có thể)
+		:ARG0 (n / người lớn)))
+
+#sent: người lớn lúc nào cũng cần phải có giải thích .
+(c / có 
+	:ARG0 (n / người lớn)
+	:ARG0-of (g / giải thích)
+	:time (l / lúc
+		:mod (n2 / nào))
+	:need (c2 / cần
+		:mod (c3 / cũng))
+	:obligate (p / phải))
+
+#sent: tôi bị thất vọng vì sự thất bại của bản thảo số một và số hai .
+(t / thất vọng
+	:ARG1 (t2 / tôi)
+	:cause-01 (t3 / thất bại
+		:classifier (s / sự)
+		:poss (b2 / bản thảo
+			:op1 (m / một
+				:mod (s2 / số))
+			:op2 (h / hai
+				:mod (s3 / số)))))
+
+#sent: nhưng luôn luôn ông ta trả lời : " đấy là một cái mũ .
+(n / nhưng
+	:ARG0-of (t / trả lời
+		:ARG0 (t2 / ta
+			:classifier (ô / ông))
+		:degree (l / luôn luôn)
+		:ARG1 (m / mũ
+			:classifier (c / cái)
+			:ARG0 (đ / đấy))))
+
+#sent: tôi đã nhìn thấy họ rất là gần .
+(n / nhìn
+	:tense (đ / đã)
+	:ARG0 (t / tôi)
+	:mod (t2 / thấy
+		:ARG1 (h / họ))
+	:domain (g / gần
+		:mod (r / rất)))
+
+#sent: tôi đã sống nhiều với những người lớn .
+(s / sống
+	:tense (đ / đã)
+	:ARG0 (t / tôi)
+	:degree (n / nhiều)
+	:location (v / với
+		:op1 (n2 / người lớn)))
+
+#sent: tôi cũng đã gặp trong đời tôi cả đống những con người nghiêm chỉnh .
+(g / gặp
+	:tense (đ / đã)
+	:ARG0 (t / tôi)
+	:ARG1 (c / con người
+		:quant (c2 / cả
+			:mod (đ2 / đống))
+		:mod (n2 / nghiêm chỉnh))
+	:duration (đ3 / đời
+		:poss t))
+
+#sent: cái đó thật là ích lợi nếu như người ta bay lạc đường trong đêm tối .
+(í / ích lợi 
+	:ARG0 (đ / đó
+		:classifier (c / cái))
+	:condition (b / bay
+		:ARG0 (n / người ta)
+		:ARG1 (l / lạc
+			:mod (đ2 / đường))
+		:dayperiod (đ3 / đêm tối)))
+
+#sent: tôi đã bay khắp thế giới mỗi nơi một tí .
+(b / bay
+	:ARG0 (t / tôi)
+	:tense (đ / đã)
+	:location (k / khắp
+		:part (n / nơi
+			:part-of (t2 / thế giới))
+		:degree (m / một
+			:mod (t3 / tý))))
+
+#sent: tôi nói về chơi bài , chơi gôn , chính trị và cravate .
+(n / nói
+	:ARG0 (t / tôi)
+	:topic (v / về
+		:op1 (c / chơi
+			:ARG1 (b / bài))
+		:op2 (c2 / chơi
+			:ARG1 (g / gôn))
+		:op3 (c3 / chính trị)
+		:op4 (c4 / cravate)))
+
+#sent: cái giọng ấy nói 
+(n / nói
+	:ARG0 (g / giọng
+		:classifier (c / cái)))
+
+#sent: - cái gì ?
+(g / gì
+	:classifier (c / cái)
+	:mode (i / interrogative))
+
+#sent: - xin vẽ hộ tôi một con cừu ...
+(x / xin
+	:ARG1 (v / vẽ
+		:manner (h / hộ
+			:ARG1 (t / tôi)
+			:ARG2 (c / cừu
+				:classifier (c2 / con)))))
+
+#sent: tôi dụi mắt thật kỹ .
+(d / dụi
+	:ARG0 (t / tôi)
+	:ARG1 (m / mắt)
+	:degree (k / kỹ
+		:mod (t2 / thật)))
+
+#sent: tôi đã nhìn thật kỹ .
+(n / nhìn
+	:ARG0 (t / tôi)
+	:degree (k / kỹ
+		:mod (t2 / thật))
+	:tense (đ / đã))
+
+#sent: vậy là tôi phải chọn nghề khác , và tôi học lái máy bay .
+(v / và
+	:op1 (c / chọn
+		:obligate (p / phải)
+		:ARG0 (t / tôi)
+		:ARG1 (n / nghề
+			:mod (k / khác)))
+	:op2 (h / học
+		:ARG0 t
+		:ARG0-of (l / lái
+			:ARG1 (m / máy bay))))
+
+#sent: tôi đã rất buồn , nhưng tôi nói với họ : đó là vì mệt ...
+(n / nhưng
+	:ARG1 (b / buồn
+		:ARG0 (t / tôi)
+		:tense (đ / đã)
+		:mod (r / rất)
+	:ARG2 (n2 / nói)
+		:ARG0 t
+		:ARG1 (l / là
+			:ARG0 (đ2 / đó)
+			:cause (m / mệt))
+		:ARG2 (h / họ))
+
+#sent: bây giờ tôi đã nguôi nguôi .
+(n / nguôi nguôi
+	:ARG0 (t / tôi)
+	:time (b / bây giờ)
+	:tense (đ / đã)
+
+#sent: và ban đêm , tôi thích lắng nghe các ngôi sao .
+(t / thích
+	:ARG0 (t2 / tôi
+		:ARG0-of (l / lắng nghe
+			:ARG1 (s / sao
+				:classifier (n / ngôi
+					:quant (c / các)))))
+	:time (b / ban đêm))
+
+#sent: chúng như năm trăm triệu cái chuông nhỏ ...
+(c / chuông
+	:classifier(c2 / cái
+		:quant (n / năm trăm triệu)
+		:mod (n2 / nhỏ)
+		:ARG0-of (r / resemble-01
+			:ARG1 (c3 / chúng))))
+
+#sent: tới khi mở được miệng , tôi hỏi em :
+(h / hỏi
+	:ARG0 (t / tôi)
+	:ARG1 (e / em)
+	:time (m / mở
+		:ARG1 (m2 / miệng)))
+
+#sent: em trả lời tôi :
+(t / trả lời
+	:ARG0 (e / em)
+	:ARG1 (t2 / tôi))
+
+#sent: - không sao đâu .
+(s / sao
+	:polarity -
+	:mod (đ / đâu))
+
+#sent: xin vẽ hộ tôi một con cừu ...
+(x / xin
+	:ARG1 (v / vẽ)
+		:manner (h / hộ
+			:ARG1 (t / tôi)
+			:ARG2 (c / cừu
+				:classifier (c2 / con))))
+
+#sent: đó là hình con trăn kín .
+(h / hình
+	:topic (t / trăn
+		:classifier(c / con))
+		:mod(k / kín)
+	:domain (đ / đó))
+
+#sent: và tôi sững sờ khi nghe cậu bé trả lời :
+(v / và
+	:ARG1 (s / sững sờ
+		:ARG0 (t / tôi)
+		:time (n / nghe
+			:ARG1 (t2 / trả lời
+				:ARG0 (c / cậu
+					:mod (b / bé))))))
+
+#sent: - không ! không !
+(k / không 
+	:mode expressive
+	:(k2 / không
+		:mode expressive))
+
+#sent: con trăn nguy hiểm lắm , còn con voi thì quá kềnh càng .
+(c / còn
+	:op1(n / nguy hiểm
+		:ARG0 (t / trăn
+			:classifier (c2 / con))
+		:mod (l / lắm))
+	:op2 (k / kềnh càng
+		:ARG0 (v / voi
+			:classifier (c3 / con))
+		:degree (q / quá)))
+
+#sent: chỗ tôi bé lắm .
+(b / bé
+	:degree (l / lắm)
+	:ARG0 (c2 / chỗ
+		:poss (t / tôi)))
+
+#sent: tôi cần một con cừu .
+(c / cần
+	:ARG0(t / tôi)
+	:ARG1 (c2 / cừu
+		:classifier (c3 / con)))
+
+#sent: hãy vẽ cho tôi một con cừu !
+(v / vẽ
+	:mod (h / hãy)
+	:ARG1 (c / cừu
+		:classifier (c2 / con))
+	:beneficiary (t / tôi))
+
+#sent: thế là tôi vẽ .
+(v / vẽ
+	:ARG0 (t / tôi)
+	:mod (t2 / thế là))
+
+#sent: em nhìn chăm chú , rồi nói :
+(n / nhìn
+	:ARG0 (e / em)
+	:mod (c / chăm chú)
+	:ARG1 (n2 / nói)
+		:mod(r / rồi))
+
+#sent: - không ! con này ốm quá .
+(ô / ốm 
+	:ARG0(n / này
+		:classifier(c / con))
+	:degree (q / quá)
+	:ARG2 (k / không))
+
+#sent: hãy vẽ con khác đi .
+(v / vẽ
+	:ARG1 (c / con
+		:mod (k / khác))
+	:mod (h / hãy)
+	:mod(đ / đi))
+
+#sent: tôi vẽ .
+(v / vẽ
+	:ARG0 (t / tôi))
+
+#sent: - đây là cái thùng .
+(t / thùng
+	:classifier (c / cái)
+	:domain (đ / đây))
+
+#sent: tôi đã bỏ dở như vậy đó , vào năm lên sáu , một sự nghiệp hội hoạ tuyệt vời .
+(b / bỏ dở
+	:ARG0 (t / tôi)
+	:tense (đ / đã)
+	:ARG1 (s / sự nghiệp
+		:topic (h / hội họa)
+		:mod (t2 / tuyệt vời))
+	:time (n / năm
+		:quant (s2 / sáu)
+		:unit (t3 / tuổi))
+	:mod (v / vậy
+		:mod (đ2 / đó)))
+
+#sent: từ đó tôi hay nghĩ đến các cuộc phiêu lưu trong rừng rậm , và đến lượt tôi , với một cây bút chì màu , tôi đã vẽ được bức phác thảo đầu tiên .
+(v / và
+	:op1 (n / nghĩ
+		:ARG0 (t / tôi)
+		:ARG1 (c / cuộc
+			:mod (p2 / phiêu lưu)
+			:location (r / rừng
+				:mod (r2 / rậm)))
+		:time (t2 / từ
+				:op1 (đ / đó)))
+	:op2 (v2 / vẽ
+		:tense (đ2 / đã)
+		:ARG0 t
+		:ARG1 (p / phác thảo
+			:classifier (b2 / bức)
+			:ord (đ4 / đầu tiên))
+		:time (đ3 / đến
+			:op1 (l / lượt
+				:ARG0 t))
+		:instrument (b / bút
+			:classifier (c2 / cây)
+			:mod (m / màu)
+			:quant (m2 / một))))
+
+#sent: thế là tôi chẳng thèm nói với ông ta về trăn rắn , rừng hoang hay các vì sao nữa .
+(t / thèm
+	:polarity -
+	:mod (t2 / thế là)
+	:ARG0 (t3 / tôi)
+	:ARG1 (n / nói
+		:beneficiary (ô / ông
+			:mod (t5 / ta))
+		:domain (t4 / trăn
+			:mod (r / rắn)
+			:op2 (r2 / rừng
+				:mod (h / hoang))
+			:op3 (s / sao
+				:classifier (v / vì)
+				:quant (c / các)))
+		:mod (n2 / nữa)))
+
+#sent: tôi tự hạ mình xuống ngang tầm ông ta .
+(h / hạ mình
+	:ARG0 (t / tôi)
+	:manner (t2 / tự)
+	:ARG1 (t3 / tầm
+		:poss (ô / ông
+			:mod(t4 / ta)))
+	:mod (x / xuống)
+
+#sent: và môn địa lý , đúng như vậy , đã giúp tôi rất nhiều .
+(v / và
+	:op2 (g / giúp
+		:ARG0 (đ / địa lý
+			:classifier (m / môn))
+		:ARG1 (t / tôi)
+		:degree (n / nhiều
+			:mod (r / rất))
+		:tense (đ2 / đã)))
+
+#sent: thế là tôi tự hỏi : " chuyện gì đã xảy ra trên tinh cầu ấy ?
+(h / hỏi 
+	:manner (t / tự)
+	:ARG0 (t2 / tôi)
+	:mod (t3 / thế là)
+	:ARG1 (x / xảy
+		:ARG0 (g / gì
+			:classifier(c / chuyện))
+		:mod(r / ra)
+		:location (t4 / tinh cầu
+			:mod(ấ / ấy))
+		:tense (đ / đã)
+		:mode (i / interrogative)))
+
+#sent: hồi lên sáu , có lần tôi đã nhìn thấy một bức tranh tuyệt đẹp trong một cuốn sách nói về rừng hoang nhan đề : những chuyện có thật
+(nhìn / n
+	:ARG0 (t / tôi)
+	:ARG1 (t2 / tranh
+		:classifier (b / bức)
+		:mod (đ / đẹp)
+		:mod (t3 / tuyệt)
+		:location (s / sách
+			:classifier (c / cuốn)
+			:name (n2 / nhan đề 
+				:op1 (n3 / những)
+				:op2 (c2 / chuyện) 
+				:op3 (c3 / có)
+				:op4 (t6 / thật))
+			:topic (r / rừng
+				:mod (h / hoang))))
+	:mod (l / lần)
+	:tense (đ2 / đã)
+	:time (t4 / tuổi
+		:ARG1 t
+		:ARG2 (t5 / temporal-quantity
+			:quant (s2 / sáu))))
+
+#sent: và con người lớn kia cảm thấy hài lòng vô cùng khi được quen một con người biết điều như vậy .
+(v / và 
+	:op2 (c / cảm
+		:ARG0 (n / người lớn
+			:classifier (c2 / con))
+		:mod (t / thấy)
+		:ARG1 (h / hài lòng
+			:degree(v2 / vô cùng))
+		:time (q / quen
+			:mod (đ / được)
+			:ARG0 (c3 / con người
+					:ARG2-of (v3 / vậy
+						:degree (n2 / như))))))
+
+#sent: nhưng cái đó chẳng làm thay đổi ý kiến của tôi bao nhiêu .
+(n / nhưng
+	:ARG2 (l / làm
+		:ARG0 (c / cái
+			:mod (đ / đó))
+		:polarity -
+		:ARG1 (t / thay đổi
+			:ARG1(y / ý kiến
+				:poss (t2 / tôi))
+			:degree (b / bao nhiêu))))
+
+#sent: và tôi chỉ đi một mình không có hành khách cũng chẳng có thợ máy , tôi phải một mình bắt đầu cuộc sửa chữa khó khăn .
+(v / và
+	:op1 (đ / đi
+		:ARG0 (t / tôi)
+		:ARG0-of (c / có
+				:polarity -
+				:op1 (h / hành khách)
+				:op2 (t2 / thợ máy))
+		:mod (c2 / chỉ)
+		:manner(m / một mình))
+	:op2 (b / bắt đầu
+		:ARG0 t
+		:obligate (p / phải)
+		:manner (m2 / một mình)
+		:ARG1 (s / sửa chữa
+			:classifier (c3 / cuộc)
+			:mod(k / khó khăn))))
+
+#sent: đấy là vấn đề sống chết với tôi .
+(v / vấn đề
+	:domain (đ / đấy)
+	:manner (s / sống chết)
+	:beneficiary (t / tôi))
+
+#sent: tôi nhảy dựng lên như là bị sét đánh .
+(n / nhảy
+	:ARG0 (t / tôi)
+	:ARG0-of (d / dựng
+		:direction (l / lên)
+		:ARG0-of (đ / đánh
+			:ARG0 (s / sét))))
+
+#sent: chiếc rọ mõm tôi đã vẽ cho ông hoàng nhỏ , tôi đã quên vẽ thêm cái đai da .
+(q / quên
+	:ARG0 (t / tôi)
+	:tense(đ / đã)
+	:ARG1 (v / vẽ
+		:ARG1(t2 / thêm
+			:ARG1(đ2 / đai
+				:classifier(c / cái)
+				:mod(d / da))
+			:ARG2 (v2 / vẽ 
+				:tense (đ3 / đã)
+				:ARG0 t
+				:ARG1 (r / rọ mõm
+					:classifier (c2 / chiếc)
+					:beneficiary (ô / ông hoàng))))))
+
+#sent: những bạn bè gặp lại tôi rất lấy làm hài lòng thấy tôi còn sống .
+(l / lấy làm 
+	:ARG0-of (g / gặp
+		:ARG0 (b / bạn bè
+			:mod (n / những)
+		:mod (l2 / lại)
+		:ARG1 (t / tôi)))
+	:mod (h / hài lòng
+		:mod (r / rất))
+	:ARG1 (t2 / thấy
+		:ARG1 t
+			:mod (s / sống
+				:mod (c / còn))))
+
+#sent: em ngã xuống nhẹ nhàng như một cái cây .
+(n / ngã 
+	:ARG0 (e / em)
+	:direction (x / xuống)
+	:mod (n2 / nhẹ nhàng)
+		:resemble-1 (c / cây
+			:classifier (c2 / cái)))
+
+#sent: em không kêu .
+(k / kêu
+	:polarity -
+	:ARG0 (e / em))
+
+#sent: em có hơi nản .
+(n / nản
+	:ARG0(e / em)
+	:degree (h / hơi))
+
+#sent: tôi cũng sẽ nhìn các ngôi sao .
+(n / nhìn
+	:tense (s / sẽ)
+	:mod (c / cũng)
+	:ARG0 (t / tôi)
+	:ARG1 (s2 / sao
+		:classifier (n2 / ngôi)
+		:quant (c2 / các)))
+
+#sent: các ngôi sao sẽ là những cái giếng với một cái ròng rọc han rỉ .
+(g / giếng
+	:classifier (c / cái)
+	:mod(n / những)
+	:tense (s / sẽ)
+	:domain (s2 / sao
+		:classifier(n2 / ngôi)
+		:mod(c2 / các))
+	:accompanier (r / ròng rọc
+		:quant(m / một)
+		:mod(h / han
+			:mod(r2 / rỉ))))
+
+#sent: nó có sừng ...
+(c / có 
+	:ARG0 (n / nó)
+	:ARG1 (s / sừng))
+
+#sent: tất cả mọi ngôi sao sẽ rót cho tôi uống ...
+(r / rót
+	:ARG0 (s / sao
+		:quant (t / tất cả)
+		:classifier (n / ngôi)
+		:quant (m / mọi))
+	:tense (s2 / sẽ)
+	:beneficiary (u / uống)
+		:ARG0 (t2 / tôi))
+
+#sent: tôi phải có trách nhiệm !
+(c / có
+	:ARG0 (t / tôi)
+	:obligate (p / phải)
+	:ARG1 (t2 / trách nhiệm))
+
+#sent: nàng thật là yếu đuối !
+(y / yếu đuối
+	:mod (t / thật)
+	:domain (n / nàng))
+
+#sent: tôi lại vẽ lại lần nữa .
+(v / vẽ
+	:ARG0(t / tôi)
+	:mod(l / lại)
+		:frequency 1
+			:unit (l2 / lần))
+
+#sent: - con này già quá .
+(g / già 
+	:degree (q / quá)
+	:domain( c / con
+		:mod (n / này)))
+
+#sent: và em ngồi xuống vì sợ .
+(v / và
+	:op1 (n / ngồi)
+		:direction(x / xuống)
+		:ARG0(e / em)
+		:ARG0-of (c / cause
+			:ARG1 (s / sợ)))
+
+#sent: và tôi nói bừa :
+(v / và 
+	:op1 (n / nói)
+		:ARG0 (t / tôi)
+		:mod (b / bừa))
+
+#sent: ông để tôi bước một mình thôi .
+(đ / để
+	:ARG0 (ô / ông)
+	:ARG1 (b / bước
+		:mod(m / một mình)))
+
+#sent: em bước một bước .
+(b / bước
+	:ARG0 (e / em)
+	:quant (m / một
+		:unit (b2 / bước)))
+
+#sent: tôi không muốn một con voi trong bụng một con trăn đâu .
+(m / muốn
+	:ARG0 (t / tôi)
+	:polarity -
+	:ARG1 (v / voi
+		:classifier(c / con)
+		:location (t2 / trong
+			:op1(b / bụng
+				:poss(t3 / trăn
+					:classifier(c2 / con)))))
+	:mod (đ / đâu))
+
+#sent: tôi ngồi xuống vì không thể giữ mình đứng được nữa .
+(n / ngồi
+	:ARG0 (t / tôi)
+	:direction(x / xuống)
+	:ARG0-of (c / cause)
+		:ARG1 (g / giữ mình
+			:polarity -
+			:ARG1 (đ / đứng)
+				:mod(đ2 / được
+					:mod(n2 / nữa))))
+
+#sent: nàng thật ngây thơ !
+(n / ngây thơ
+	:mod (t / thật)
+	:domain (n2 / nàng))
+
+#sent: - sao vậy ?
+(s / sao
+	:mod (v / vậy)
+	:mod (i / interrogative))
+
+#sent: cậu bé của tôi cười nhẹ , giọng khoan dung :
+(c / cười
+	:ARG0 (b / bé
+		:classifier (c2 / cậu)
+		:poss (t / tôi))
+	:mod (n / nhẹ nhàng)
+	:ARG2 (k / khoan dung
+		:ARG0 (g / giọng)))
+
+#sent: - vì chỗ tôi bé lắm ...
+(c / cause
+	:ARG0 (b / bé
+		:degree (l / lắm)
+		:domain (c2 / chỗ
+			:poss (t / tôi))))
+
+#sent: - chắc là đủ .
+(đ / đủ
+	:domain (c / chắc))
+
+#sent: nó đã ngủ rồi ...
+(n / ngủ
+	:tense (đ / đã)
+	:ARG0 (n2 / nó)
+	:mod (r / rồi))
+
+#sent: nó bay được đấy .
+(b / bay
+	:ARG0 (n / nó)
+	:polarity (đ / được
+		:mod (đ2 / đấy)))
+
+#sent: nó là một chiếc máy bay .
+(m / máy bay
+	:classifier(c / chiếc)
+	:ARG0 (n / nó))
+
+#sent: bởi vì tôi chưa bao giờ vẽ một con cừu cả nên tôi vẽ lại cho em một trong hai bức tranh mà tôi có thể vẽ .
+(v / vẽ
+	:ARG0 (t / tôi)
+	:mod (l / lại)
+	:beneficiary (e / em)
+	:ARG1 (t2 / tranh
+		:classifier (b / bức)
+		:ARG1-of (i / include-01
+			:ARG2 (t3 / tranh
+				:classifier (b3 / bức)
+				:ARG1-of (v2 / vẽ
+					:ARG0 t
+					:polarity -))))
+	:ARG0-of (c / cause 
+		:ARG2 (v3 / vẽ
+			:ARG0 t
+			:ARG1 (c2 / cừu
+				:classifier (c3 / con))
+			:time (b2 / bao giờ
+				:polarity -))))
+
+#sent: tôi muốn xuống .
+(x / xuống
+	:ARG0 (t / tôi)
+	:mod (m / muốn))
+
+#sent: tôi sẽ đến đêm nay .
+(đ / đến
+	:ARG0 (t / tôi)
+	:tense (s / sẽ)
+	:time (đ2 / đêm
+		:mod (n / nay)))
+
+#sent: em liền kêu lên :
+(k / kêu
+	:mod (l / lên)
+	:ARG0 (e / em)
+	:time (l2 / liền))
+
+#sent: không phải cái thứ .
+(t / thứ
+	:classifier (c / cái)
+	:polarity -)
+
+#sent: - cái thứ này là cái gì ?
+(g / gì
+	:classifier (c / cái)
+	:domain (t / thứ
+		:classifier (c2 / cái)
+		:domain (a / amr-unknown)))
+
+#sent: đó là chiếc máy bay của tôi .
+(m / máy bay
+	:classifier(c / chiếc)
+	:domain (đ / đó)
+	:poss (t / tôi))
+
+#sent: - sao ?
+(s / sao
+	:mode (i / interrogative))
+
+#sent: - ái chà !
+(a / ái chà
+	:mode (e / expressive))
+
+#sent: cái này ngộ đấy ...
+(n / ngộ
+	:ARG0 (n2 / này
+		:classifier(c / cái))
+	:mod(đ / đấy))
+
+#sent: 09- nếu ông vui lòng ... xin vẽ hộ tôi một con cừu ...
+(x / xin
+	:ARG1 (v / vẽ)
+		:manner (h / hộ
+			:ARG1 (t / tôi)
+			:ARG2 (c / cừu
+				:classifier (c2 / con)))
+	:condition (ô / ông
+		:mod (v2 / vui lòng)))
+
+#sent: - phải , tôi nói khiêm tốn .
+(p / phải
+	:ARG1(n / nói
+		:ARG0 (t / tôi)
+		:degree (k / khiêm tốn)))
+
+#sent: sau đó em nói thêm :
+(n / nói
+	:ARG0 (e / em)
+	:mod (t / thêm)
+	:time (s / sau
+		:mod (đ / đó)))
+
+#sent: bạn tôi không hề giảng giải gì cho tôi .
+(g / giảng giải
+	:polarity -
+	:ARG0 (b / bạn
+		:poss (t / tôi))
+	:ARG1 t)
+
+#sent: cái ấy đến nhẹ nhàng bằng những suy đoán ngẫu nhiên .
+(đ / đến
+	:ARG1 (â / ấy
+		:classifier (c / cái))
+	:degree (n / nhẹ nhàng)
+	:manner (s / suy đoán
+		:manner (n2 / ngẫu nhiên)
+		:mod (n3 / những)))
+
+#sent: tôi đã già rồi .
+(g / già
+	:ARG0 (t / tôi)
+	:tense (đ / đã)
+	:mod (r / rồi))
+
+#sent: tôi lại cũng có sai lầm về tầm vóc .
+(c / có
+	:ARG0 (t / tôi)
+	:mod (c2 / cũng)
+	:ARG1 (s / sai lầm
+		:topic (t2 / tầm vóc)))
+
+#sent: họ là thế .
+(t / thế
+	:domain (h / họ))
+
+#sent: tôi đã rất thích bắt đầu kể câu chuyện này như kiểu một câu chuyện thần tiên .
+(t / thích
+	:ARG0 (t2 / tôi)
+	:mod (đ / đã)
+	:mod (r / rất)
+	:ARG1 (b / bắt đầu
+		:ARG0 (t3 / tôi)
+		:ARG1 (c / chuyện
+			:classifier (c2 / câu)
+			:mod (n / này))
+		:manner (c3 / chuyện
+			:classifier (c4 / câu)
+			:mod (t4 / thần tiên))))
+
+#sent: bởi vì tôi không muốn người ta đọc cuốn sách của tôi một cách hời hợt .
+(c / cause 
+	:ARG0 (m / muốn
+		:ARG0 (t / tôi)
+		:ARG1 (đ / đọc
+			:ARG0 (n / người ta)
+			:ARG1 (s / sách
+				:poss t )
+			:manner (h / hời hợt))
+		:polarity -))
+
+#sent: khi kể lại các kỷ niệm này , tôi buồn tủi biết bao .
+(b / buồn
+	:mod (t / tủi)
+	:ARG0 (t2 / tôi)
+	:degree (b2 / biết bao)
+	:time (k / kể
+		:mod (l / lại)
+		:ARG1 (k2 / kỉ niệm
+			:classifier (c / các)
+			:mod (n / này))))
+
+#sent: nhưng không thể nhìn thấy hạt .
+(n / nhưng
+	:ARG2 (n2 / nhìn
+		:ARG1 (h / hạt)
+		:mod (t / thấy
+			:polarity -))
+
+#sent: tôi có biết một tinh cầu , trên ấy có một gã lười .
+(b / biết
+	:ARG0 (t / tôi)
+	:ARG1 (t2 / tinh cầu
+		:ARG1-of (c / có
+			:ARG1 (g / gã
+				:mod (l / lười)))))
+
+#sent: cậu em thực sự bực tức .
+(b / bực tức
+	:ARG0 (e / em
+		:classifier (c / cậu))
+	:mod (t / thực sự))
+
+#sent: nhưng ông hoàng bé nhỏ không trả lời .
+(n / nhưng
+	:ARG2 (t / trả lời
+		:polarity -
+		:ARG0 (h / hoàng
+			:classifier (ô / ông)
+			:mod (b / bé nhỏ))))
+
+#sent: hắn bỏ mặc ba cái cây con ...
+(b / bỏ
+	:ARG0 (h / hắn)
+	:mod (m / mặc)
+	:ARG1 (c / cây
+		:quant (b2 / ba)
+		:classifier (c2 / cái)
+		:mod (c3 / con)))
+
+#sent: hàng triệu năm nay , cừu vẫn cứ ăn hoa .
+(ă / ăn
+	:ARG0 (c / cừu)
+	:mod (v / vẫn)
+	:mod (c2 / cứ)
+	:ARG1 (h / hoa)
+	:duration (t / triệu
+		:classifier (h2 / hàng)
+		:unit (n / năm)))
+
+#sent: em cúi đầu xuống bức vẽ :
+(c / cúi
+	:ARG0 (e / em)
+	:ARG1 (đ / đầu)
+	:direction (x / xuống)
+	:ARG2 (v / vẽ
+		:classifier (b / bức)))
+
+#sent: nhưng em không trả lời tôi .
+(n / nhưng 
+	:ARG2 (t / trả lời
+		:ARG0 (e / em)
+		:polarity -
+		:ARG1 (t2 / tôi)))
+
+#sent: vì vậy , tôi cố tìm hiểu rõ hơn :
+(c / cố
+	:ARG0 (t / tôi)
+	:ARG0-of (t2 / tìm hiểu
+		:mod (r / rõ
+			:mod (h / hơn)))
+	:mod (v / vì vậy))
+
+#sent: chỗ em là đâu thế ?
+(đ / đâu
+	:ARG0 (c / chỗ
+		:poss (e / em))
+	:domain (a / amr-unknown))
+
+#sent: - cậu bé ơi , em từ đâu đến ?
+(đ / đến
+	:ARG1 (e / em)
+	:ARG3 (a / amr-unknown)
+	:ARG4 (b / bé
+		:classifier (c / cậu)))
+
+#sent: sau một lát im lặng trầm ngâm , em trả lời tôi :
+(t / trả lời
+	:ARG0 (e / em)
+	:ARG1 (t2 / tôi)
+	:time (s / sau
+		:op1 (l / lát
+			:mod (t3 / trầm ngâm)
+			:mod (i / im lặng))))
+
+#sent: em khẽ lắc đầu nhìn chiếc máy bay của tôi :
+(l / lắc đầu
+	:ARG0 (e / em)
+	:mod (k / khẽ)
+	:ARG1 (đ / đầu)
+	:ARG0-of (n / nhìn
+		:ARG1 (m / máy bay
+			:classifier (c / chiếc)
+			:poss (t / tôi))))
+
+#sent: và một cái cọc nữa .
+(v / và 
+	:op1 (c / cọc
+		:classifier (c2 / cái)
+		:mod (n / nữa)))
+
+#sent: - phải đấy .
+(p / phải
+	:mod (đ / đấy))
+
+#sent: - buộc nó lại ?
+(b / buộc
+	:ARG1 (n / nó)
+	:mod (l / lại)
+	:mode (i / interrogative))
+
+#sent: - thế ra em ở một hành tinh khác tới ?
+(ơ / ở
+	:ARG0 (e / em)
+	:mod (t / thế ra)
+	:ARG1 (h / hành tinh)
+	:mod (t2 / tới)
+	:mode (i / interrogative))
+
+#sent: có cái gì đó trong động cơ của tôi bị gãy .
+(g / gãy
+	:ARG1 (g2 / gì
+		:classifier (c / cái)
+		:mod (đ / đó)
+		:location (đ2 / động cơ
+			:poss (t / tôi)))
+
+#sent: tôi chỉ có đủ nước để uống trong nhiều nhất là tám ngày .
+(c / có
+	:ARG0 (t / tôi)
+	:mod (c2 / chỉ)
+	:ARG1 (n / nước
+		:purpose (u / uống)
+		:quant (đ / đủ
+			:ARG1-of (n2 / nhiều
+				:mod (n3 / nhất))
+			:quant (t2 / tám
+				:unit (n4 / ngày)))))
+
+#sent: ông ở hành tinh nào ?
+(ơ / ở
+	:ARG0 (ô / ông)
+	:ARG1 (h / hành tinh)
+	:mode (i / interrogative))
+
+#sent: lúc đó tôi còn cô độc hơn cả một kẻ đắm tàu trên chiếc bè lênh đênh giữa biển .
+(c / cô độc
+	:ARG0 (t / tôi)
+	:mod (c2 / còn)
+	:degree (h / hơn)
+	:compared-to (k / kẻ
+		:ARG1-of (đ / đắm
+			:ARG1 (t2 / tàu))
+		:location (b / bè
+			:classifier (c3 / chiếc)
+			:ARG1-of (l / lênh đênh
+				:location (b2 / biển
+					:part (g / giữa))))))
+
+#sent: và tôi thấy một cậu bé thật khác thường đang nhìn tôi với vẻ nghiêm trọng .
+(v / và
+	:op1 (t / thấy
+		:ARG0 (t2 / tôi)
+		:ARG1 (c / cậu
+			:mod(b / bé)
+			:mod(k / khác thường
+				:degree (t3 / thật))
+			:ARG0-of (n / nhìn
+				:tense (đ2 / đang))
+				:ARG1 (t4 / tôi)
+				:ARG2-of (v2 / vẻ
+					:mod (n2 / nghiêm trọng)))))
+
+#sent: khi mà sự bí ẩn quá lớn , người ta không dám không vâng lời .
+(d / dám
+	:ARG0 (n / người ta)
+	:polarity -
+	:ARG0-of (v / vâng
+		:polarity -
+		:AG1 (l / lời))
+	:ARG0 (s / sự
+		:mod (b / bí ẩn)
+		:mod (l2 / lớn
+			:degree (q / quá))))
+
+#sent: những người lớn chẳng bao giờ tự họ hiểu được cái gì cả , và thật là mệt cho trẻ con lúc nào cũng phải giải thích cho họ .
+(v / và
+	:op1 (h / hiểu
+		:polarity -
+		:ARG0 (n / người lớn)
+		:amr-unknow (g / gì
+			:classifier (c2 / cái))
+		:ARG0 (h2 / họ))
+	:op2 (m / mệt
+		:mod (t / thật)
+		:ARG0 (t2 / trẻ con))
+	:domain (g2 / giải thích
+		:ARG2 (h3 / họ)
+		:obligate (p / phải)
+		:time (l / lúc
+			:mod (n2 / nào ))))
+
+#sent: tôi muốn một con cừu sống thật lâu .
+(m / muốn
+	:ARG0 (t / tôi)
+	:ARG1 (c / cừu
+		:classifier (c2 / con)
+		:ARG1-of (s / sống
+			:mod (l / lâu
+				:degree (t2 / thật)))))
+
+#sent: phải rất lâu tôi mới biết em từ đâu đến .
+(b / biết
+	:ARG0 (t / tôi)
+	:mod (m / mới)
+	:ARG1 (e / em)
+	:place (đ / đâu
+		:mod (t3 / từ)
+		:ARG3-of (đ2 / đến))
+	:time (l / lâu
+		:obligate (p / phải)
+		:mod (r / rất)))
+
+#sent: nhưng tôi hết sức ngạc nhiên khi thấy mặt vị quan toà nhỏ của tôi sáng rõ lên :
+(n / nhưng
+	:ARG2 (n2 / ngạc nhiên
+		:ARG0 (t / tôi)
+		:degree (h / hết sức)
+		:time (k / khi
+			:time (t2 / thấy
+				:ARG1 (m / mặt
+					:poss (q / quan tòa
+						:mod (n3 / nhỏ))
+					:poss (t3 / tôi)
+					:ARG1-of (s / sáng
+						:degree (r / rõ
+							:direction (l / lên))))))))
+
+#sent: không phải lỗi tại tôi .
+(l / lỗi
+	:obligate (p / phải
+		:polarity -
+	:poss (t / tôi))
+
+#sent: - đúng là cái mà tôi muốn đấy !
+(c / cái
+	:mod (đ / đúng)
+	:domain (m / muốn
+		:ARG0 (t / tôi)
+		:ARG1 (đ2 / đấy)))
+
+#sent: tôi tự hào nói cho em biết là tôi bay .
+(n / nói 
+	:ARG0 (t / tôi)
+	:ARG1 (b / biết
+		:ARG0 (e / em)
+		:ARG2 (b2 / bay
+			:ARG0 t))
+	:mod (t2 / tự hào))
+
+#sent: rồi em đắm mình trong giấc mơ màng thật dài .
+(đ / đắm
+	:ARG0 (e / em)
+	:ARG1 (m / mình 
+		:location (g / giấc
+			:mod (m2 / mơ màng)
+			:mod (d / dài
+				:degree (t / thật)))))
+
+#sent: cậu bạn của tôi lại bật cười khanh khách :
+(b / bật
+	:ARG0 (c / cậu
+		:mod(b2 / bạn)
+		:poss(t / tôi))
+	:mod (l / lại)
+	:direction (l1 / lên)
+	ARG1 (c2 / cười
+		:mod (k / khanh khách)))
+
+#sent: - nó đi đằng nào được chứ ?
+(đ / đi
+	:ARG0 (n / nó)
+	:ARG1 (a / amr-unknown))
+
+#sent: - bất cứ đâu .
+(đ / đâu
+	:mod (b / bất cứ))
+
+#sent: nghĩ gì mà lạ thế !
+(l / lạ
+	:mod (t / thế)
+	:domain (g / gì
+		:ARG0-of (n / nghĩ)))
+
+#sent: - không hề gì .
+(h / hề
+	:polarity -
+	:mod (g / gì))
+
+#sent: chỗ tôi bé lắm !
+(b / bé
+	:degree (l / lắm)
+	:ARG0 (c / chỗ
+		:poss (t / tôi)))
+
+#sent: cứ đi thẳng tới trước mặt ...
+(đ / đi
+	:direction (t / thẳng)
+	:mod (t2 / tới)
+	:location (m / mặt
+		:location (t3 / trước)))
+
+#sent: bấy giờ ông hoàng nhỏ nhận xét một cách nặng nề :
+(n / nhận xét
+	:ARG0 (h / hoàng
+		:classifier (ô / ông)
+		:mod (n2 / nhỏ))
+	:manner (n3 / nặng nề
+		:mod (m / một cách))
+	:time (b / bấy giờ))
+
+#sent: và nếu em ngoan , ta sẽ còn cho em một sợi dây để buộc nó lại ban ngày .
+(v / và
+	:op1 (c / cho
+		:ARG0 (t / ta)
+		:tense (s / sẽ)
+		:mod(c2 / còn)
+		:ARG2 (e / em)
+		:ARG1 (d / dây
+			:classifier(s2 / sợi)
+		:purpose (b / buộc
+			:ARG1 (n / nó)
+			:mod (l / lại)
+			:time (b2 / ban ngày)))
+		:condition (n2 / ngoan
+			:ARG0 e)))
+
+#sent: rồi em lại cười nữa .
+(c / cười
+	:ARG0(e / em)
+	:mod(l / lại)
+	:mod(n / nữa)
+	:mod(r / rồi))
+
+#sent: - tôi sẽ có vẻ như đau ...
+(đ / đau
+	:ARG0 (t / tôi)
+	:mod (c / có
+		:mod (v / vẻ))
+	:tense (s / sẽ)
+	:mod (n / như))
+
+#sent: - tôi sẽ không rời em đâu .
+(r / rời
+	:ARG0 (t / tôi)
+	:tense (s / sẽ)
+	:polarity -
+	:ARG1 (e / em)
+	:mod (đ / đâu))
+
+#sent: rồi em lại cười nữa .
+(c / cười
+	:ARG0 (e / em)
+	:mod (l / lại)
+	:mod (n / nữa)
+	:op1 (r / rồi))
+
+#sent: thế thôi mà !
+(t / thế
+	:mod (t2 / thôi)
+	:mod (m / mà))
+
+#sent: và em trở lại nghiêm nghị :
+(v / và
+	:op1 (t / trở lại
+		:ARG0 (e / em)
+		:mod (n / nghiêm nghị)))
+
+#sent: tôi sẽ có vẻ sắp chết .
+(c / chết 
+	:ARG0(t / tôi)
+	:tense (s / sẽ)
+	:mod (c2 / có
+		:mod(v / vẻ))
+	:mod (s2 / sắp))
+
+#sent: nhưng bức này cũng bị từ chối như các bức trước .
+(n / nhưng
+	:Arg0-of (t / từ chối)
+	:ARG1 (b / bức)
+	:mod (c / cũng)
+	:ARG2 (b2 / bức
+		:manner (n2 / như)
+		:quant (c2 / các)
+		:mod (t2 / trước)))
+
+#sent: và như thế đấy , tôi đã làm quen với ông hoàng bé nhỏ .
+(v / và
+	:op2 (l / làm quen
+		:ARG0 (t / tôi)
+		:ARG1 (h / hoàng
+			:classifier (ô / ông)
+			:mod (b / bé nhỏ))
+		:manner (đ / đấy
+			:mod (t2 / thế))))
+
+#sent: và ông hoàng bé nhỏ bật lên một tràng cười khanh khách rất kháu nhưng làm tôi cáu lắm .
+(v / và
+	:ARG1 (b / bật
+		:direction (l / lên)
+		:ARG0 (h / hoàng
+			:classifier (ô / ông)
+				:mod (b2 / bé nhỏ))
+		:ARG1 (c / cười
+			:quant (t / tràng)
+			:mod (k / khanh khách)
+			:mod (k2 / kháu
+				:mod (r / rất))))
+	:ARG0-of (l2 / làm
+		:contrast (n / nhưng)
+		:ARG2 (c2 / cáu
+			:ARG0 (t2 / tôi)
+			:degree (l3 / lắm))))
+
+#sent: rồi , có lẽ với một chút ngậm ngùi , em nói thêm :
+(n / nói 
+	:ARG0 (e / em)
+	:mod (t / thêm)
+	:manner (n2 / ngậm ngùi
+		:degree (m / một chút)
+		:mod (c / có lẽ))
+	:mod (r / rồi))
+
+#sent: điều ấy chẳng làm tôi ngạc nhiên nhiều lắm .
+(n / ngạc nhiên
+	:polarity -
+	:ARG0 (ấ / ấy
+		:classifier (đ / điều))
+	:ARG1 (t / tôi)
+	:degree (n2 / nhiều
+		:mod (l / lắm)))
+
+#sent: khi một nhà thiên văn khám phá ra một trong bọn chúng , nhà thiên văn ấy cho nó một con số .
+(c / cho
+	:ARG0 (t / thiên văn
+		:classifier (n2 / nhà)
+		:mod (ấ / ấy))
+	:ARG1 (n / nó)
+	:ARG2 (c2 / con số)
+	:time (k / khám phá
+		:ARG0 t
+		:mod (r / ra)
+		:quant (m2 / một
+			:poss (c3 / chúng
+				:classifier (b / bọn)))))
+
+#sent: sau đó , móc túi lấy con cừu tôi vừa vẽ , em lại mê mải ngắm cái của báu đó .
+(m / mê mải
+	:ARG0 (e / em)
+	:mod (l / lại)
+	:ARG1 (n / ngắm
+		:ARG1 (c / của
+			:classifier(c2 / cái)
+			:mod (b / báu)
+			:mod (đ / đó)))
+	:time (s / sau
+		:mod (đ2 / đó))
+	:time (l2 / lấy
+		:ARG0-of (m2 / móc
+			:ARG1 (t / túi)
+			:ARG2 (c3 / cừu
+				:classifier (c4 / con)
+				:ARG0 (v / vẽ
+					:ARG0 (t2 / tôi)
+					:mod (3 / vừa))))))
+
+#sent: người lớn là thế đấy .
+(t / thế
+	:mod (đ / đấy)
+	:domain (n / người lớn))
+
+#sent: tôi có những lý do chính đáng để coi rằng cái hành tinh từ đó ông hoàng nhỏ đến đây là tiểu hành tinh b612 .
+(c / có
+	:ARG0 (t / tôi)
+	:ARG1 (l / lý do
+		:mod (c2 / chính dáng))
+	:purpose (c3 / coi
+		:mod(r / rằng)
+		:ARG1 (đ / đến
+			:ARG0 (h / hoàng
+				:classifier(ô / ông)
+				:mod(n / nhỏ))
+			:ARG3 (h2 / hành tinh
+				:classifier(c4 / cái)
+				:name(b / b612)))))
+
+#sent: lúc đó ông này mở một buổi thuyết trình lớn về phát hiện của mình tại một hội nghị quốc tế về thiên văn .
+(m / mở
+	:ARG0 (ô / ông
+		:mod (n / này))
+	:ARG1 (b / buổi
+		:Arg1-of (t / thuyết trình
+			:mod (l2 / lớn)
+			:topic (p / phát hiện
+				:poss (m2 / mình))
+		:place (h / hội nghị
+			:mod (q / quốc tế)
+			:topic (t2 / thiên văn))))
+	:time (đ / đó
+		:mod (l / lúc)))
+
+#sent: và lần này , tất cả mọi người đồng ý với ông ta .
+(v / và
+	:op2 (đ / đồng ý
+		:ARG0 (n / người
+			:quant (t / tất cả)
+			:quant (m / mọi))
+		:ARG1 (ô / ông
+			:mod (t2 / ta))
+		:time (l / lần
+			:mod (n2 / này))))
+
+#sent: khi bạn nói chuyện với họ về một người bạn mới , không bao giờ họ hỏi bạn về cái cốt yếu đâu .
+(h / hỏi
+	:ARG0 (h2 / họ)
+	:ARG1 (b / bạn)
+	:domain (c / cốt yếu
+		:classifier (c2 / cái))
+	:mod (đ / đâu)
+	:time (b2 / bao giờ
+		:polarity -)
+	:time (k / khi
+		:time (n / nói chuyện
+			:ARG0 (b3 / bạn)
+			:mod (c3 / chuyện)
+			:accompainer (h3 / họ)
+			:domain (b4 / bạn
+				:classifier (n2 / người)
+				:mod (m2 / mới))))
+
+#sent: nhưng do bộ quần áo của ông ta , chẳng ai tin điều ông ta nói .
+(n / nhưng
+	:ARG0-of (t / tin
+		:ARG0 (a / ai
+			:polarity -)
+		:ARG1 (đ / điều
+			:ARG0 (n2 / nói
+				:ARG0 (ô2 / ông)))
+		:ARG2 (q / quần áo
+			:classifier (b / bộ)
+			:poss (ô / ông))))
+
+#sent: những người lớn rất thích chữ số .
+(t / thích
+	:ARG0 (n / người lớn
+		:quant (n2 / những))
+	:mod (r / rất)
+	:ARG1 (c / chữ số))
+
+#sent: nhà thiên văn trình bày lại vấn đề năm 1920 , trong bộ quần áo rất lịch sự .
+(t / trình bày
+	:mod (l / lại)
+	:ARG0 (t2 / thiên văn
+		:classifier (n / nhà))
+	:domain (q / quần áo
+		:classifier (b / bộ)
+		:mod (l2 / lịch sự
+			:mod (r / rất)))
+	:ARG1 (v / vấn đề
+		:time (d / date-entity :năm 1920)))
+
+#sent: trẻ con phải hết sức rộng lượng đối với người lớn .
+(r / rộng lượng
+	:ARG0 (t / trẻ con)
+	:ARG1 (n / người lớn)
+	:obligate (p / phải)
+	:degree (h / hết sức))
+
+#sent: tôi đã rất thích nói thế này :
+(t / thích
+	:ARG0 (t2 / tôi)
+	:mod (r / rất)
+	:ARG0-of (n / nói
+		:ARG1 (t3 / thế
+			:mod (n2 / này))))
+
+#sent: và có lẽ tôi sắp trở nên những người lớn , chỉ còn thích các chữ số .
+(v / và
+	:op2 (t / trở nên
+		:mod (c / có lẽ)
+		:mod (s / sắp)
+		:ARG0 (t2 / tôi)
+		:ARG1 (n / người lớn
+			:classifier (n2 / những)
+			:ARG1-of (t3 / thích
+				:degree (c2 / chỉ
+					:mod (c3 / còn))
+				:ARG1 (c4 / chữ số
+					:classifier (c5 / các))))))
+
+#sent: nhưng tôi không thành công chút nào .
+(n / nhưng
+	:ARG2 (t / thành công
+		:ARG0 (t2 / tôi)
+		:polarity -
+		:degree (c / chút
+			:mod (n2 / nào))))
+
+#sent: một bức trước vứt đi , bức sau còn tệ hơn nữa .
+(v / vứt
+	:ARG0 (t / trước
+		:classifier (b / bức))
+	:mod (đ / đi)
+	:mod (t2 / tệ
+		:ARG0 (s / sau
+			:classifier (b2 / bức))
+		:mod (c / còn)
+		:mod (h / hơn)
+		:mod (n / nữa)))
+
+#sent: đối với những ai hiểu đời , kể như vậy có vẻ thật hơn nhiều .
+(k / kể
+	:manner (v / vậy)
+	:ARG1 (t / thật
+		:mod (h / hơn
+			:degree (n2 / nhiều)))
+	:beneficiary (a / ai
+		:mod (n / những)
+		:ARG0-of (h2 / hiểu
+			:ARG1 (đ / đời))))
+
+#sent: cuối cùng tôi còn nhầm ở những nét quan trọng hơn nữa .
+(n / nhầm
+	:ARG0 ( / tôi)
+	:mod (c / còn)
+	:time (c2 / cuối cùng)
+	:ARG1 (n2 / nét
+		:mod (q / quan trọng
+			:degree (h / hơn
+				:mod (n3 / nữa)))
+		:classifier (n4 / những)))
+
+#sent: nhưng này , các bạn phải tha lỗi cho tôi .
+(n / nhưng
+	:ARG1 (t / tha
+		:ARG0 (b / bạn
+			:classifier (c / các))
+		:obligate (p / phải)
+		:ARG1 (l / lỗi)
+		:beneficiary (t2 / tôi)))
+
+#sent: có lẽ tôi hơi giống những người lớn rồi .
+(g / giống
+	:mod (c / có lẽ)
+	:ARG0 (t / tôi)
+	:mod (h / hơi)
+	:ARG1 (n / người lớn
+		:quant (n2 / những)))
+
+#sent: - phải , đúng đấy .
+(đ / đúng
+	:mod (p / phải)
+	:mod (đ2 / đấy))
+
+#sent: - ồ, tốt quá!
+(t / tốt
+	:mod (q / quá)
+	:mode (ồ / ồ)
+
+#sent: nếu là nhánh dưa hay một nhánh hồng , ta có thể muốn để cho nó mọc thế nào tuỳ ý 
+(đ / để
+	:ARG0 (m / muốn
+		:possible (c / có thể)
+		:ARG0 (t / ta))
+	:ARG0-of (m2 / mọc
+		:ARG0 (n / nó)
+		:mod (t2 / thế nào)
+		:manner (t3 / tùy ý))
+	:condition (h / hay
+		:op1 (n2 / nhánh
+			:part-of (c2 / cây))
+		:op2 (n3 / nhánh
+			:part-of (h2 / hồng))))
+
+#sent: mỗi ngày tôi lại biết thêm một điều gì đó về hành tinh , về lúc ra đi , về cuộc du hành của cậu .
+(b / biết
+	:ARG0 (t / tôi)
+	:mod (l / lại)
+	:mod (t2 / thêm)
+	:ARG1 (đ / điều
+		:mod (g / gì
+			:mod (đ2 / đó))
+		:op1 (h / hành tinh)
+		:op2 (r / ra
+			:mod (đ3 / đi)
+			:classifier (l2 / lúc))
+		:op3 (d / du hành
+			:classifier (c / cuộc)
+			:poss (c2 / cậu))))
+
+#sent: tôi sẽ cố thử , hẳn thế , làm những bức chân dung càng giống càng hay .
+(c / cố
+	:ARG0 (t / tôi)
+	:tense (s / sẽ)
+	:ARG0-of (t2 / thử)
+	:obligate (h / hẳn)
+	:ARG0-of (l / làm
+		:ARG1 (c2 / chân dung
+			:quant (n / những
+				:classifier (b / bức))
+			:compared-to (g / giống
+				:mod (c3 / càng))
+			:degree (h2 / hay
+				:mod (c4 / càng)))))
+
+#sent: không nên giận họ .
+(g / giận
+	:ARG1 (h / họ)
+	:recommend (n / nên
+		:polarity -))
+
+#sent: - phải chồng con này lên con kia ...
+(c / chồng
+	:obligate (p / phải)
+	:direction (l / lên)
+	:ARG1 (n / này
+		:classifier (c2 / con))
+	:ARG2 (k / kia
+		:classifier (c3 / con)))
+
+#sent: nhưng ông hoàng nhỏ nói thêm :
+(n / nhưng 
+	:ARG1 (n2 / nói
+		:ARG0 (ô / ông hoàng
+			:mod (n3 / nhỏ))
+		:mod (t / thêm)))
+
+#sent: - cho nên chúng ăn cả những cây baobab chứ ?
+(ă / ăn
+	:AR0 (c / chúng)
+	:ARG1 (b / baobab
+		:classifier (c2 / cây)
+		:mod (n / những)))
+
+#sent: chúng nhiễm đầy cả tinh cầu .
+(n / nhiễm
+	:ARG0 (c / chúng)
+	:degree (đ / đầy)
+	:ARG1 (t / tinh cầu))
+
+#sent: - bọn baobab , trước khi lớn , cũng bắt đầu bé tẹo chứ !
+(b / bắt đầu
+	:ARG0 (b2 / baobab
+		:classifier (b4 / bọn))
+	:ARG1 (b3 / bé
+		:mod (c / chứ)
+		:degree (t / tẹo))
+	:time (t2 / trước
+		:mod (k / khi
+			:mod (l / lớn)))
+	:mod(c2 / cũng))
+
+#sent: snt: đây là một vấn đề kỷ luật , ông hoàng nhỏ về sau nói với tôi .
+(v / vấn đề
+	:domain (đ / đây)
+	:manner (k / kỷ luật)
+	:ARG0 (n / nói
+		:ARG0-of (ô / ông hoàng
+			:mod (n2 / nhỏ))
+		:time (s / sau
+			:domain (v2 / về))
+		:accompainer (t / tôi)))
+
+#sent: snt: đó là một việc làm chán lắm , nhưng mà thật dễ .
+(v / việc làm
+	:domain (đ / đó)
+	:mod (c / chán
+		:mod (l / lắm))
+	:mod (d / dễ
+		:contrast (n / nhưng mà)
+		:mod (t / thật)))
+
+#sent: một ngày kia , nếu các bạn ấy lên đường , cậu em nói với tôi , chuyện ấy sẽ có ích cho họ .
+(n / nói
+	:ARG0 (e / em
+		:classifier (c2 / cậu))
+	:ARG2 (t / tôi)
+	:ARG1 (c1 / có ích
+		:ARG0 (c3 / chuyện
+			:mod (ấ / ấy))
+		:ARG1 (h / họ)
+		:condition (l / lên đường
+			:ARG0 (b / bạn
+				:classifier (c4 / các)) 
+			:time (n2 / ngày kia
+				:mod (m / một)))))
+
+#sent: tôi tuyệt không thích lên mặt dạy đời .
+(t / thích
+	:polarity -
+	:degree (t2 / tuyệt)
+	:ARG0 (t3 / tôi)
+	:ARG0-of (l / lên mặt
+		:ARG1 (d / dạy đời)))
+
+#sent: - tôi rất thích cảnh mặt trời lặn .
+(t / thích
+	:ARG0 (t2 / tôi)
+	:degree (r / rất)
+	:ARG1 (l / lặn
+		:ARG0 (m / mặt trời)
+		:mod (c / cảnh)))
+
+#sent: tôi không biết .
+(b / biết
+	:polarity -
+	:ARG0 (t / tôi))
+
+#sent: nó cho rễ của nó xói đục hành tinh .
+(c / cho
+	:ARG0 (n / nó)
+	:ARG1 (x / xói đục
+		:ARG0 (d / dễ
+			:poss n)
+		:ARG1 (h / hành tinh)))
+
+#sent: câu trả lời đơn giản thôi : tôi có thử vẽ nhưng không thành .
+(c / câu
+	:mod (t / trả lời)
+	:mod (đ / đơn-giản)
+	:ARG1 (t2 / thử
+		:ARG0 (t3 / tôi)
+		:ARG1 (v / vẽ)
+		:ARG2 (c2 / contrast
+			:ARG1 (t4 / thành
+				:polarity -))))
+
+#sent: loài hoa yếu đuối lắm .
+(y / yếu đuối
+	:ARG0 (h / hoa
+		:classifier (l / loài))
+	:degree (l2 / lắm))
+
+#sent: - tôi không tin !
+(t / tin
+	:ARG0 (t2 / tôi)
+	:polarity -)
+
+#sent: tôi bấy giờ đang bận tháo một đinh ốc vặn quá chặt trong động cơ của tôi .
+(b / bận
+	:ARG0 (t / tôi)
+	:tense (đ / đang)
+	:ARG1 (t2 / tháo
+		:ARG1 (đ2 / đinh ốc
+				:ARG1-of (v / vặn
+				:manner (c / chặt
+					:degree (q / quá)))
+				:place (đ3 / động cơ
+					:poss t))))
+		
+		
+
+#sent: khi ta làm vệ sinh cho ta buổi sáng rồi , ta phải làm kỹ vệ sinh cho hành tinh .
+(l / làm
+	:ARG0 (t / ta)
+	:obligate (p / phải)
+	:ARG1 (v / vệ sinh
+		:beneficiary (h / hành tinh))
+	:manner (k / kỹ)
+	:time (l2 / làm
+		:ARG0 t
+		:ARG1 (v2 / vệ sinh)
+			:beneficiary t
+		:time (d / date-entity
+			:dayperiod (s / sáng
+				:classifier (b / buổi)))
+		:mod (r / rồi)))
+
+#sent: thế là , theo sự chỉ dẫn của ông hoàng nhỏ , tôi đã vẽ tinh cầu đó .
+(v / vẽ
+	:ARG0 (t / tôi)
+	:tense (đ / đã)
+	:ARG1 (t2 / tinh cầu
+		:mod (đ2 / đó))
+	:manner (c / chỉ dẫn
+		:classifier (s / sự)
+		:poss (h / hoàng
+			:classifier (ô / ông)
+			:mod (n / nhỏ)))
+	:mod (t3 / thế là))
+
+#sent: ôi !
+(ô / ôi
+	:mode expressive)
+
+#sent: thốt nhiên em bật lên nức nở .
+(b / bật
+	:ARG0 (e / em)
+	:manner (l / lên)
+	:ARG1 (n / nức nở)
+	:manner (t / thốt nhiên))
+
+#sent: - đúng là như thế .
+(đ / đúng
+	:ARG1 (t / thế
+		:mod (n / như)))
+
+#sent: đêm đã buông xuống .
+(b / buông
+	:ARG0 (đ / đêm)
+	:tense (đ2 / đã)
+	:manner (x / xuống))
+
+#sent: ông hoàng bé nhỏ lúc này tái xanh vì giận .
+(t / tái xanh
+	:ARG1 (h / hoàng
+		:classifier (ô / ông)
+		:mod (b / bé nhỏ))
+	:time (l / lúc
+		:mod (n / này))
+	:cause (g / giận))
+
+#sent: không hề yêu một người nào .
+(y / yêu
+	:polarity -
+	:ARG1 (n / người
+		:mod (n2 / nào)))
+
+#sent: không hề ngắm một vì sao .
+(n / ngắm
+	:polarity -
+	:ARG1 (s / sao
+		:classifier (v / vì)))
+
+#sent: ông ta không hề ngửi một bông hoa .
+(n / ngửi
+	:ARG0 (t / ta
+		:classifier (ô / ông))
+	:ARG1 (h / hoa
+		:classifier (b / bông)))
+
+#sent: câu ấy làm tôi hơi xấu hổ .
+(l / làm
+	:ARG0 (â / ấy
+		:classifier (c / cậu))
+	:ARG1-of (x / xấu hổ
+		:ARG0 (t / tôi)
+		:degree (h / hơi)))
+
+#sent: nhưng sau một lát im lặng em kêu lên một cách giận dỗi :
+(n / nhưng
+	:ARG2 (k / kêu
+		:ARG0 (em / e)
+		:manner (l / lên)
+		:manner (g / giận dỗi)
+		:time (s / sau
+			:ARG1 (l2 / lát
+				:mod (i / im lặng)))))
+
+#sent: ta đi xem mặt trời lặn đi .
+(đ / đi
+	:ARG0 (t / ta)
+	:ARG1 (x / xem
+		:ARG1 (l / lặn
+			:ARG0 (m / mặt trời))))
+			
+
+#sent: đôi khi hoãn lại một việc cũng chẳng hại gì .
+(h / hoãn
+	:ARG1 (v / việc)
+	:ARG2 (h2 / hại
+		:polarity -
+		:ARG1 (g / gì))
+	:time (đ / đôi khi))
+
+#sent: - nhưng phải đợi chứ ...
+(n / nhưng
+	:ARG2 (đ / đợi
+		:obligate (p / phải)
+		:mod (c / chứ)))
+
+#sent: - đợi lúc mặt trời đó lặn .
+(đ / đợi
+	:ARG2 (l / lặn
+		:ARG0 (m / mặt trời)))
+
+#sent: cậu em nhìn thấy tôi tay cầm búa , các ngón đen thui vì dầu máy , cúi xuống một vật mà em xem ra thật là xấu xí .
+(n / nhìn 
+	:ARG0 (e / em
+		:classifier (c / cậu))
+	:ARG1 (t / tôi
+		:ARG0-of (c2 / cầm
+			:ARG0 (t2 / tay)
+			:ARG1 (b / búa))
+		:ARG0-of (n2 / ngón
+			:quant (c4 / các)
+			:mod (đ / đen thui)
+			:cause (d / dầu máy))
+		:ARG0-of (c3 / cúi
+			:direction (x / xuống)
+			:location (v / vật
+				:mod (x2 / xấu xí
+					:mod (x3 / xem ra
+					:degree (t3 / thật)))))))
+
+#sent: - ông nói như các người lớn ấy !
+(n / nói
+	:ARG0 (ô / ông)
+	:resemble (n2 / người lớn
+		:quant (c / các)
+		:mod (ấ / ấy)))
+
+#sent: thoạt nhiên em có vẻ kinh ngạc , và rồi em tự cười mình .
+(v / và
+	:op1 (k / kinh ngạc
+		:ARG0 (e / em)
+		:mod (c / có
+			:mod (v2 / vẻ)))
+	:op2 (c2 / cười
+		:ARG0 e 
+		:manner (t / tự)
+		:ARG1 e )
+	:time (t2 / thoạt nhiên))
+
+#sent: tôi đã rất lo lắng vì thấy cái máy có vẻ hỏng nặng lắm , mà nước uống thì cạn dần làm cho tôi sợ xảy ra điều tệ hại nhất .
+		
+#sent: tôi biết được nét mới đó vào buổi sáng ngày thứ tư , khi em bảo tôi :
+(b / biết
+	:ARG0 (t / tôi)
+	:ARG1 (n / nét
+		:mod (m / mới)
+		:mod (đ / đó))
+	:time (d / date-entity
+		:dayperiod (s / sáng)
+		:mod (n2 / ngày
+			:ord (o / ordinal-entity :value 4)))
+	:time (b2 / bảo
+		:ARG0 (e / em)
+		:ARG1 t))
+
+#sent: hắn thích chơi trò gì ?
+(t / thích
+	:ARG0 (h / hắn)
+	:ARG0-of (c / chơi
+		:ARG1 (a / amr-unknown
+			:domain (t2 / trò))))
+
+#sent: hắn có sưu tầm bươm bướm không ? "
+(s / sưu tầm
+	:ARG0 (h / hắn)
+	:ARG1 (b / bươm bướm)
+	:mode (i / interrogative))
+
+#sent: họ chỉ hỏi bạn : " hắn ta bao nhiêu tuổi ?
+(h / hỏi
+	:ARG0 (h2 / họ)
+	:degree (c / chỉ)
+	:ARG1 (b / bạn)
+	:ARG2 (t / tuổi
+		:poss (t2 / ta
+			:classifier (h3 / hắn))
+		:quant (a / amr-unknown)))
+
+#sent: hắn ta có mấy anh em ?
+(c / có
+	:ARG0 (h / hắn)
+	:ARG1 (a / anh em)
+	:quant (a2 / amr-unknown))
+
+#sent: thế đấy .
+(t / thế
+	:mod (đ / đấy))
+
+#sent: thật là buồn nếu ta quên một người bạn .
+(b / buồn
+	:condition (q / quên
+		:ARG0 (t / ta)
+		:ARG1 (b2 / bạn
+			:classifier (n / người)))
+	:degree (t2 / thật))
+
+#sent: - đợi cái gì ?
+(đ / đợi
+	:ARG1 (a / amr-unknown))
+
+#sent: thế đấy .
+(t / thế
+	:mod (đ / đấy))
+
+#sent: - ồ !
+(ô / ồ
+	:mode expressive)
+
+#sent: chúng ngây thơ lắm .
+(n / ngây thơ 
+	:ARG0 (c / chúng)
+	:degree (l / lắm))
+
+#sent: - không !
+(k / không
+	:mode expressive)
+
+#sent: không !
+(k / không
+	:mode expressive)
+
+#sent: cậu nhìn tôi ngạc nhiên :
+(n / nhìn
+	:ARG0 (c / cậu)
+	:ARG1 (t / tôi)
+	:mod (n2 / ngạc nhiên))
+
+#sent: - những việc hệ trọng !
+(v / việc
+	:mod (h / hệ trọng)
+	:quant (n / những))
+
+#sent: - một cái nấm !
+(n / nấm 
+	:classifier (c / cái))
+
+#sent: - một cái gì ?
+(a / amr-unknown
+	:classifier (c / cái))
+
+#sent: tôi ... "
+(t / tôi)
+
+#sent: tôi ru em .
+(r / ru
+	:ARG0 (t / tôi)
+	:ARG1 (e / em))
+
+#sent: tôi ôm em trong vòng tay .
+(ô / ôm
+	:ARG0 (t / tôi)
+	:ARG1 (e / em)
+	:location (v / vòng tay))
+
+#sent: nhưng cậu em nhận xét với vẻ triết lý :
+(n / nhưng
+	:ARG2 (n2 / nhận xét
+		:ARG0 (e / em
+			:classifier (c / cậu))
+		:manner (t / triết lý)))
+
+#sent: không may nước pháp ở quá xa .
+(m / may
+	:polarity -
+	:ARG2 (ở / ở
+		:ARG1 (n / nước
+			:name (p / pháp))
+		:extent (x / xa
+			:degree (q / quá))))
+
+#sent: một chốc sau đó em nói thêm :
+(n / nói
+	:ARG0 (e / em)
+	:manner (t / thêm)
+	:time (s / sau
+		:mod (đ / đó)
+		:degree (c / chốc)))
+
+#sent: nhưng , trên cái hành tinh bé đến thế của em , em chỉ cần dịch ghế vài bước .
+(n / nhưng
+	:ARG2 (d / dịch
+		:ARG0 (e / em)
+		:manner (c / cần
+			:degree (c2 / chỉ))
+		:ARG1 (g / ghế)
+		:extent (b / bước
+			:quant (v / vài))
+		:location (h / hành tinh
+			:mod (b2 / bé
+				:degree (đ / đến
+					:mod (t / thế)))
+			:poss e)))
+
+#sent: ông hoàng nhỏ không bao giờ chịu bỏ một câu hỏi , một khi đã nói ra .
+(c / chịu
+	:polarity -
+	:ARG0 (h / hoàng
+		:classifier (ô / ông)
+		:mod (n / nhỏ))
+	:ARG1 (b / bỏ
+		:ARG1 (c2 / câu hỏi)
+		:time (m2 / một khi
+			:ARG1 (n2 / nói
+				:ARG1 c2)))) 
+
+#sent: nhưng ông ta đâu có phải là người , ông ta là một cái nấm !
+(n / nhưng
+	:ARG1 (n2 / người
+		:polarity - 
+		:domain (t / ta
+			:classifier (ô / ông)))
+	:ARG2 (n3 / nấm
+		:domain t))
+
+#sent: ông hoàng nhỏ lại làm sao lãng những suy nghĩ của tôi :
+(l / làm 
+	:ARG0 (h / hoàng
+		:classifier (ô / ông)
+		:mod (n / nhỏ))
+	:manner (l2 / lại)
+	:ARG1 (s / sao nhãng
+		:ARG1 (s2 / suy nghĩ
+			:quant (n2 / những)
+			:poss (t / tôi))))
+
+#sent: - có một ngày , tôi nhìn mặt trời lặn bốn mươi ba lần !
+(n / nhìn
+	:ARG0 (t / tôi)
+	:ARG1 (l / lặn
+		:ARG0 (m / mặt trời)
+		:frequency (b / bốn mươi ba)))
+
+#sent: chúng cố tự làm cho chúng được vững tâm .
+(c / cố
+	:ARG0 (c2 / chúng)
+	:ARG1 (l / làm
+		:ARG2 c
+		:manner (t / tự)
+		:ARG3 (v / vững tâm)))
+
+#sent: nhưng nếu là một cây xấu , ngay khi nhận ra là phải nhổ ngay .
+(n / nhưng
+	:ARG1 (n2 / nhổ
+		:obligate (p / phải)
+		:manner (n3 / ngay)
+		:time (n4 / nhận
+			:mod (r / ra))
+		:condition (c / cây
+			:mod (x / xấu))))
+
+#sent: tôi cóc cần cái búa của tôi , cái đinh ốc của tôi , cóc cần cái khát , cóc cần cái chết .
+(c / cần
+	:polarity -
+	:ARG0 (t / tôi)
+	:ARG1 (h / hoặc
+		:op1 (b / búa
+			:poss t)
+		:op2 (đ / đinh ốc
+			:classifier (c2 / cái)
+			:poss t)
+		:op3 (k / khát
+			:classifier (c3 / cái))
+		:op4 (c4 / chết
+			:classifier (c5 / cái))))
+	
+
+#sent: em đỏ mặt rồi nói tiếp :
+(đ / đỏ
+	:ARG0 (e / em)
+	:ARG1 (m / mặt)
+	:op1 (n / nói
+		:mod (t / tiếp)))
+
+#sent: nhưng nếu là những cây baobab , thì bao giờ cũng tai hoạ đấy .
+(n / nhưng
+	:ARG2 (t / tai họa
+		:time (b / bao giờ)
+		:condition (b2 / baobab
+			:classifier (c2 / cây))))
+
+#sent: ông ta chẳng bao giờ làm cái gì khác những bài tính cộng .
+(l / làm
+	:polarity -
+	:ARG0 (t / ta
+		:classifier (ô / ông)) 
+	:ARG1 (g / gì
+		:classifier (c / cái))
+	:ARG2-of (k / khác 
+		:ARG2 (b / bài tính
+			:mod (c2 / cộng)
+			:mod (n / những))))
+
+#sent: mái tóc của em vàng xoã tung ra trước gió :
+(xõa / x
+	:ARG0 (t / tóc
+		:poss (e / em)
+		:mod (v / vàng))
+	:ARG1 (t2 / tung
+		:manner (r / ra))
+	:place (g / gió))
+
+#sent: và chuyện đó không quan trọng hay sao !
+(v / và
+	:op1 (q / quan trọng
+		:polarity -
+		:ARG0 (c / chuyện
+			:mod (đ / đó))
+		:mod (h / hay
+			:mod (s / sao))))
+
+#sent: em nghẹn ngào không nói được nữa .
+(n / nghẹn ngào
+	:ARG0 (e / em)
+	:ARG0-of (n2 / nói
+		:polarity -
+		:manner (đ / được
+			:mod (n3 / nữa))))
+
+#sent: tôi sẽ vẽ một cái rọ mõm , cho con cừu của em ...
+(v / vẽ
+	:ARG0 (t / tôi)
+	:ARG1 (r / rọ mõm
+		:classifier (c / cái))
+	:tense (s / sẽ)
+	:beneficiary (e / em))
+
+#sent: em nói :
+(n / nói
+	:ARG0 (e / em))
+
+#sent: họ sẽ kêu ngay : " ôi thật xinh đẹp làm sao . "
+(k / kêu
+	:ARG0 (h / họ)
+	:tense (s / sẽ)
+	:manner (n / ngay)
+	:ARG1 (x / xinh đẹp
+		:degree (t / thật)
+		:mod (l / làm sao)))
+
+#sent: và em bảo tôi :
+(v / và
+	:op1 (b / bảo
+		:ARG0 (e / em)
+		:ARG1 (t / tôi)))
+
+#sent: bài học mà tôi đưa ra rất xứng công .
+(đ / đưa
+	:ARG0 (t / tôi)
+	:manner (r / ra)
+	:ARG1 (b / bài học)
+	:ARG2 (x / xứng
+		:ARG1 (c / công)
+		:degree (r2 / rất)))
+
+#sent: khi vẽ cây baobab , tôi bị thôi thúc bởi một tình cảm cấp bách .
+(t / thôi thúc
+	:ARG1 (t2 / tôi)
+	:cause (t3 / tình cảm
+		:mod (c3 / cấp bách))
+	:time (v / vẽ
+		:ARG1 (b2 / baobab
+			:classifier (c / cây))))
+
+#sent: tôi đã bỏ các đồ nghề xuống .
+(b / bỏ
+	:tense (đ / đã)
+	:ARG0 (t / tôi)
+	:ARG1 (đ2 / đồ nghề
+		:quant (c / các))
+	:direction (x / xuống))
+
+#sent: nó có thể là một loại baobab mới .
+(b / baobao
+	:mod (c / có thể)
+	:mod (m / mới)
+	:domain (n / nó))
+
+#sent: tôi cảm thấy mình rất vụng về .
+(c / cảm 
+	:manner (t / thấy)
+	:ARG0 (t2 / tôi)
+	:ARG1 (v / vụng về
+		:degree (r / rất)
+		:ARG0 t))
+
+#sent: hắn ta cân nặng bao nhiêu ? "
+(n / nặng
+	:ARG0 (t / ta
+		:classifier (h / hắn))
+	:quant (a / amr-unknown))
+
+#sent: họ không bao giờ hỏi : " giọng nói hắn ta thế nào ?
+(h / hỏi
+	:ARG0 (h2 / họ)
+	:polarity -
+	:time (b / bao giờ)
+	:ARG1 (g / giọng
+		:mod (n / nói)
+		:poss (t / ta
+			:classifier (h3 / hắn))
+		:mod (a / amr-unknown)))
+
+#sent: - ông lẫn lộn hết ... ông xáo trộn hết !
+( / lẫn lộn
+	:ARG0 (ô / ông)
+	:mod (h / hết)
+	:ARG0-of (x / xáo trộn
+		:mod (h2 / hết)))
+
+#sent: tôi trả lời đại thế thôi .
+(t / trả lời
+	:ARG0 (t2 / tôi)
+	:mod (đ / đại)
+	:mod (t3 / thế
+		:mod (t4 / thôi)))
+
+#sent: tôi đang bận những việc hệ trọng !
+(b / bận
+	:ARG0 (t / tôi)
+	:tense (đ / đang)
+	:ARG1 (v / việc
+		:mod (h / hệ trọng)
+		:quant (n / những)))
+
+#sent: nhưng không thương xót , em nói thêm :
+(n / nhưng
+	:ARG1 (n2 / nói
+		:ARG0 (e / em)
+		:mod (t / thêm)
+		:mod (t2 / thương xót
+			:polarity -)))
+
+#sent: tôi đã tìm hiểu rất nhanh để hiểu hơn về đoá hoa này .
+(t / tìm hiểu
+	:ARG0 (t2 / tôi)
+	:tense (đ / đã)
+	:manner (n / nhanh
+		:degree (r / rất))
+	:purpose (h / hiểu
+		:ARG1 (h2 / hoa
+			:classifier (đ2 / đóa)
+			:mod (n2 / này))))
+
+#sent: ôi chao !
+(ô / ôi chao
+	:mode (e / expressive))
+
+#sent: hoa thật là điệu !
+(đ / điệu
+	:ARG1 (h / hoa)
+	:degree (t / thật))
+
+#sent: hoa chưa chọn kỹ mầu sắc của mình .
+(c / chọn
+	:ARG0 (h / hoa)
+	:polarity -
+	:mod (k / kỹ)
+	:ARG1 (m / mầu sắc
+		:poss (m2 / mình)))
+
+#sent: - nàng thật là đẹp !
+(đ / đẹp
+	:ARG1 (n / nàng)
+	:degree (t / thật))
+
+#sent: " khiếp gió luồn ...
+(k / khiếp
+	:ARG1 (l / luồn
+		:ARG0 (g / gió)))
+
+#sent: cô nàng này thật phức tạp ... "
+(p / phức tạp
+	:degree (t / thật)
+	:ARG0 (n / nàng
+		:classifier (c / cô)))
+
+#sent: - em chẳng sợ gì hổ , nhưng em khiếp gió luồn .
+(n / nhưng
+	:ARG1 (s / sợi
+		:polarity -
+		:ARG0 (e / em))
+	:ARG2 (k / khiếp
+		:ARG0 e
+		:ARG1 (l / luồn
+			:ARG0 (g / gió))))
+
+#sent: - xin lỗi ...
+(x / xin lỗi)
+
+#sent: chỗ anh rét lắm .
+(r / rét
+	:ARG1 (c / chỗ
+		:poss (a / anh))
+	:degree (l / lắm))
+
+#sent: thiếu tiện nghi quá .
+(t / thiếu
+	:ARG1 (t2 / tiện nghi)
+	:degree (q / quá))
+
+#sent: ở chỗ em ...
+(ở / ở
+	:ARG1 (c / chỗ
+		:poss (e / em)))
+
+#sent: nhưng cô nàng im bặt .
+(n / nhưng
+	:ARG2 (i / im bặt
+		:ARG0 (n2 / nàng
+		:classifier (c / cô))))
+
+#sent: cô đến đây lúc hãy còn là hạt .
+(đ / đến
+	:ARG0 (c / cô)
+	:place (đ2 / đây)
+	:time-of (h / hạt
+		:domain c2))
+
+#sent: - cái chắn gió , anh có không ? ...
+(c / có
+	:ARG0 (a / anh)
+	:ARG1 (c2 / chắn
+		:ARG1 (g / gió)
+		:classifier (C3 / cái)))
+
+#sent: - chiều tối anh hãy đặt em trong bầu kính nhé .
+(đ / đặt
+	:ARG0 (a / anh)
+	:manner (h / hãy)
+	:ARG1 (e / em)
+	:ARG2 (t / trong
+		:ARG1 (k / kính
+			:classifier (b / bầu)))
+	:mod (n / nhé)
+	:time (d / date-entity 
+		:dayperiod (c / chiều
+			:mod (t2 / tối))))
+	
+
+#sent: cô chẳng thể hiểu được gì về các thế giới khác .
+(h / hiểu
+	:polarity -
+	:ARG0 (c / cô)
+	:ARG1 (g / gì)
+	:ARG2 (t / thế giới
+		:mod (c2 / các)
+		:mod (k / khác)))
+
+#sent: đối với một cây nhỏ thế là không hay , ông hoàng nhỏ nhận xét .
+(n / nhận xét
+	:ARG0 (h / hoàng
+		:classifier (ô / ông)
+		:mod (n2 / nhỏ))
+	:ARG1 (h2 / hay
+		:polarity -
+		:beneficiary (c / cây
+			:mod (n3 / nhỏ))
+		:mod (t / thế là)))
+
+#sent: - nếu ông vui lòng ... xin vẽ hộ tôi một con cừu !
+(x / xin
+	:ARG1 (v / vẽ
+		:mod (h / hộ)
+		:ARG2 (t / tôi)
+		:ARG1 (c / cừu
+			:classifier (c2 / con))
+		:condition (v2 / vui lòng
+			:ARG0 (ô / ông))))
+
+#sent: - nhưng ... em làm cái gì ở đây ?
+(n / nhưng
+	:ARG1 (l / làm
+		:ARG0 (e / em)
+		:ARG1 (a / amr-unknown)
+		:ARG2 (ở / ở
+			:ARG1 (đ / đây))))
+
+#sent: em cũng có một quả núi lửa đã tắt ...
+(c / có
+	:ARG0 (e / em)
+	:mod (c2 / cũng)
+	:ARG1 (t / tắt
+		:ARG1(n / núi
+			:classifier (q / quả)
+			:mod (l / lửa))
+		:tense (đ / đã)))
+
+#sent: và chúng rất thuận tiện cho việc nấu ăn buổi sáng .
+(v / và
+	:op2 (t / thuận tiện
+		:ARG0 (c / chúng)
+		:degree (r / rất)
+		:purpose (n / nấu ăn
+			:time (d / date-entity 
+				:dayperiod (s / sáng
+					:classifier (b / buổi))))))
+
+#sent: sự giản dị trong sáng toả khắp tác phẩm đã khiến nó trở nên một bài thơ bất hủ mà mãi mãi người ta muốn đem làm quà tặng của tình yêu .
+(k / khiến
+	:ARG0 (t / tỏa
+		:manner (k2 / khắp)
+		:ARG0 (v / và
+			:op1(g / giản dị
+				:classifier (s / sự))
+			:op2 (t5 / trong sáng
+				:classifier (s2 / sự)))
+		:ARG1 (t3 / tác phẩm))
+	:tense (đ / đã)
+	:ARG1 (t2 / trở nên
+		:ARG0 (n / nó)
+		:ARG1 (t4 / thơ
+			:classifier (b / bài)
+			:mod (b2 / bất hủ)
+			:ARG1-of (m2 / muốn
+				:ARG0 (n2 / người ta)
+				:ARG1 (đ2 / đem
+					:ARG1 (l / làm
+						:ARG1 (t6 / tặng
+							:ARG1 (q / quà)
+							:poss (t7 / tình yêu))))))))
+							
+		
+
+#sent: cái hoa của tôi làm thơm ngát tinh cầu của tôi , nhưng tôi lại không biết vui lòng .
+(n / nhưng
+	:ARG1 (l / làm
+		:ARG0 (h / hoa
+			:classifier (c / cái)
+			:poss (t / tôi))
+		:ARG1 (t2 / thơm ngát
+			:ARG1 (t3 / tinh cầu
+				:poss t)))
+	:ARG2 (b / biết
+		:polarity -
+		:ARG0 t
+		:ARG1 (v / vui lòng)))
+
+#sent: buổi sáng hôm ra đi , em đã dọn dẹp tinh cầu thật ngăn nắp 
+(d / dọn dẹp
+	:ARG0 (e / em)
+	:tense (đ / đã)
+	:ARG1 (t / tinh cầu)
+	:manner (n / ngăn nắp
+		:degree (t2 / thật))
+	:time (d2 / date-entity
+		:dayperiod (s / sáng
+			:classifier (b / buổi))
+		:time-of (h / hôm
+			:mod (r / ra
+				:mod (đ2 / đi)))))
+
+#sent: em nạo vét kỹ càng các quả núi lửa đang hoạt động của em .
+(n / nạo vét
+	:ARG0 (e / em)
+	:mod (k / kỹ càng)
+	:ARG1 (h / hoạt động
+		:ARG0 (n2 / núi
+			:classifier (q / quả)
+			:quant (c / các)
+			:poss e)))
+
+#sent: em có hai quả núi lửa đang hoạt động .
+(c / có
+	:ARG0 (e / em)
+	:ARG1 (h / hoạt động
+		:ARG0 (n2 / núi
+			:classifier (q / quả)
+			:quant (h2 / hai))))
+
+#sent: nên em cũng nạo vét cả quả núi lửa đã tắt nữa .
+(n / nạo vét
+	:ARG0 (e / em)
+	:ARG1 (n2 / núi
+		:classifier (q / quả)
+		:mod (t / tắt
+			:tense (đ / đã)))
+	:mod (c / cũng))
+
+#sent: nhưng bấy giờ tôi còn quá trẻ để mà biết yêu nàng . "
+(n / nhưng
+	:ARG2 (t / trẻ
+		:degree (q / quá)
+		:domain (t2 / tôi)
+		:purpose (b / biết
+			:ARG1 (y / yêu
+				:ARG1 (n2 / nàng)))))
+
+#sent: tôi đoán rằng em nhờ vào một chuyến thiên di của loài chim hoang để mà thoát đi .
+(đ / đoán
+	:ARG0 (t / tôi)
+	:ARG0-of (n / nhờ
+		:concession (r / rằng)
+		:ARG0 (e / em)
+		:accompainer (c / chuyến
+			:ARG1 (t3 / thiên di)
+			:poss (l / loài
+				:ARG0-of (c2 / chim)
+				:mod (h / hoang)))
+		:purpose (t2 / thoát
+			:ARG1 (đ2 / đi))))
+
+#sent: tôi đã sống cô đơn như vậy đó , chẳng có ai để chuyện trò thực sự , cho đến khi máy bay của tôi bị hỏng giữa sa mạc Sahara , cách đây sáu năm .
+(s / sống
+	:ARG0 (t / tôi)
+	:tense (đ / đã)
+	:mod (c / cô đơn)
+	:ARG0-of (c2 / có
+		:polarity -
+		:ARG1 (a / ai)
+		:purpose (c4 / chuyện trò
+			:mod (t2 / thực sự))
+		:duration (k / khi
+			:ARG0-of (h / hỏng
+				:ARG0 (m / máy bay
+					:poss (t3 / tôi))
+				:domain (s2 / sa mạc
+					:direction (g / giữa)
+					:wiki (S / Sahara)))
+			:time (c5 / cách
+				:domain (đ5 / đây)
+				:unit (n2 / năm
+					:quant (s3 / sáu))))))
+
+#sent: và ông hoàng bé tự hỏi :
+(v / và
+	:op2 (h / hỏi
+		:ARG0 (ô / ông hoàng)
+		:manner (t / tự)))
+
+#sent: tôi không trả lời gì cả .
+(t / trả lời
+	:ARG0 (t2 / tôi)
+	:polarity -
+	:ARG1 (g / gì))
+
+#sent: nhưng anh , anh cũng khờ dại như em .
+(n / nhưng
+	:ARG2 (k / khờ dại)
+		:ARG0 (a / anh)
+		:mod (c / cũng)
+		:ARG0-of (r / resemble
+			:ARG1 (e / em)))
+
+#sent: anh bỏ cái bầu kính đó xuống đi .
+(b / bỏ
+	:ARG0 (a / anh)
+	:ARG1 (k / kính
+		:classifier (b2 / bầu
+			:classifier (c / cái)))
+	:direction (x / xuống)
+	:manner (đ / đi))
+
+#sent: anh tha lỗi cho em .
+(t / tha
+	:ARG0 (a / anh)
+	:ARG1 (l / lỗi)
+	:beneficiary (e / em))
+
+#sent: em không hiểu được vẻ dịu dàng bình tĩnh ấy của nàng .
+(h / hiểu
+	:polarity -
+	:ARG0 (e / em)
+	:ARG1 (v / vẻ
+		:mod (d / dịu dàng)
+		:mod (b / bình tĩnh)
+		:poss (n / nàng)))
+
+#sent: anh không biết gì cả , ấy là lỗi tại em .
+(b / biết
+	:polarity -
+	:ARG0 (a / anh)
+	:ARG1 (g / gì)
+	:ARG2 (l / lỗi
+		:poss (e / em)
+		:domain (â / ấy)))
+
+#sent: điều ấy không quan trọng .
+(q / quan trọng
+	:polarity -
+	:ARG0 (â / ấy
+		:classifier (đ / điều)))
+
+#sent: đây là một thần dân ! nhà vua kêu lên khi thấy ông hoàng nhỏ .
+(k / kêu
+	:manner (l / lên)
+	:ARG0-of (n / nhà vua)
+	:ARG1 (t / thần dân
+		:domain (đ / đây))
+	:time (t2 / thấy
+		:ARG1 (ô / ông hoàng
+			:mod (n2 / nhỏ))))
+
+#sent: hãy đi đi anh .
+(đ / đi
+	:manner (đ2 / đi)
+	:ARG2 (a / anh))
+
+#sent: - nhưng bọn thú ...
+(n / nhưng
+	:ARG2 (t / thú
+		:classifier (b / bọn)))
+
+#sent: anh sẽ đi xa .
+(đ / đi
+	:ARG0 (a / anh)
+	:tense (s / sẽ)
+	:mod (x / xa))
+
+#sent: ta cấm ngươi ngáp .
+(c / cấm
+	:ARG0 (t / ta)
+	:ARG1 (n / ngáp
+		:ARG0 (n2 / ngươi)))
+
+#sent: tôi có tưởng gì đâu !
+(t / tưởng
+	:ARG0 (t2 / tôi)
+	:ARG1 (g / gì
+		:mod (đ / đâu)))
+
+#sent: - còn ông , ông tưởng rằng hoa ...
+(c / còn
+	:op1 (t / tưởng
+		:ARG0 (ô / ông)
+		:ARG1 (h / hoa)))
+		
+
+#sent: một bài thơ mà cho dù người ta đã đọc hàng trăm lần vẫn thấy lòng rạo rực mỗi khi đọc lại , cũng như mọi tác phẩm khác mà Saint-Exupéry đã để lại .
+(t / thấy
+	:ARG1 (b / bài thơ
+		:ARG0-of (đ / đọc
+			:concession (c2 / cho dù)
+			:ARG0 (n2 / người ta)
+			:tense (đ3 / đã)
+			:mod (h / hàng
+				:mod (l3 / lần
+					:quant (t3 / trăm)))))
+	:mod (v / vẫn)
+	:ARG1 (l / lòng)
+	:ARG0-of (r / rạo rực
+		:time (k / khi
+			:time (đ4 / đọc
+				:mod (l4 / lại))))
+	:ARG2 (t2 / tác phẩm
+		:mod (c / cũng)
+		:manner (n / như)
+		:quant (m / mọi)
+		:mod (k2 / khác)
+		:purpose (đ2 / để
+			:concession (m2 / mà)
+			:ARG0 (S / Saint-Exupéry)
+			:tense (đ5 / đã)
+			:mod (l2 / lại))))
+
+#sent: bức phác thảo đầu tiên của tôi . nó như thế này :
+(p / phác thảo
+	:classifier (b / bức)
+	:poss (t / tôi)
+	:ARG0-of (r / resemble
+		:ARG1 (t2 / thế
+			:mod (n / này))))
+
+#sent: những người lớn bèn khuyên tôi nên gác sang một bên các bức vẽ trăn kín và trăn mở kia và nên chú tâm học địa lý , sử ký , tính toán và văn phạm .
+(k / khuyên
+	:ARG0 (n / người lớn
+		:quant (n2 / những))
+	:ARG1 (v / và
+		:op1 (g / gác
+			:recommend (n3 / nên)
+			:ARG0 (t / tôi)
+			:ARG1 (v2 / vẽ
+				:classifier (b / bức)
+				:quant (c2 / các)
+				:topic (t2 / trăn
+					:mod (v4 / và
+						:op1 (k2 / kín)
+						:op2 (m2 / mở))))
+			:manner (s / sang
+				:ARG1 (m / một
+					:mod (b2 / bên))))
+		:op2 (c / chú tâm
+			:recommend (n4 / nên)
+			:ARG0 t
+			:ARG1 (h / học
+				:topic (v3 / và
+					:op1 (đ / địa lý)
+					:op2 (s2 / sử ký)
+					:op3 (t3 / tính toán)
+					:op4 (v5 / văn phạm))))))
+
+#sent: tôi biết làm thế nào để chỉ nhìn qua một cái là phân biệt được ngay Trung Quốc với Arizona .
+(b / biết
+	:ARG0 (t / tôi)
+	:ARG0-of (p / phân biệt
+		:ARG1 (t2 / Trung Quốc)
+		:ARG2 (A / Arizona)
+		:manner (n / nhìn
+			:mod (q / qua
+				:quant(m / một
+					:unit (c / cái))))))
+
+#sent: mỗi lúc gặp một người lớn có vẻ sáng sủa một tí , tôi lại thử ông ta bằng bức phác thảo số một mà tôi luôn mang theo .
+(t / thử
+	:tense (l / lại)
+	:ARG0 (t2 / tôi)
+	:ARG1 (ô / ông
+		:mod (t3 / ta))
+	:manner (p / phác thảo
+		:classifier (b / bức)
+		:ord (m / một)
+		:ARG1 (m2 / mang
+			:ARG0 t2
+			:time (l2 / luôn)
+			:manner (t4 / theo)))
+	:time (g / gặp
+		:ARG0 t2 
+		:ARG1 (n / Người lớn
+			:ARG1-of (c / có
+				:ARG1 (v / vẻ
+					:mod (s / sáng sủa
+						:degree (m3 / một tý)))))))
+
+#sent: đêm đầu tiên vậy là tôi phải ngủ trên cát ở cách xa nơi người ở hàng ngàn dặm .
+(n / ngủ
+	:ARG0 (t / tôi)
+	:location (c / cát)
+		:place (n2 / nơi
+			:ARG1-of (c2 / có
+				:ARG1 (n3 / người)
+				:quant (d / distance-quantity 
+					:unit (d2 / dặm)
+						:quant (n4 / ngàn)))))
+
+#sent: - vĩnh biệt , em nói với hoa .
+(n / nói
+	:ARG0 (e / em)
+	:ARG1 (v / vĩnh biệt)
+	:ARG2 (h / hoa))
+
+#sent: nhưng nàng không đáp .
+(n / nhưng
+	:ARG2 (đ / đáp
+		:polarity -
+		:ARG0 (n2 / nàng)))
+
+#sent: - vĩnh biệt , em nhắc lại .
+(n / nhắc
+	:ARG0 (e / em)
+	:manner (l / lại)
+	:ARG1 (v / vĩnh biệt))
+
+#sent: hoa ho lên .
+(h / ho
+	:ARG0 (h2 / hoa)
+	:mod (l / lên))
+
+#sent: nhưng không phải vì viêm họng .
+(n / nhưng
+	:cause (v / viêm
+		:ARG1 (h / họng)
+		:polarity -))
+		
+
+#sent: em không cần đâu ...
+(c / cần
+	:polarity -
+	:ARG0 (e / em))
+	
+
+#sent: - em đã khờ dại lắm , sau cùng cô nói .
+(n / nói
+	:ARG0 (c / cô)
+	:ARG1 (k / khờ dại
+		:ARG0 (e / em)
+		:degree (l / lắm))
+	:time (s / sau
+		:mod (c2 / cùng)))
+
+#sent: - vâng , em yêu anh , hoa nói với em .
+(n / nói
+	:ARG0 (h / hoa)
+	:ARG1 (v / và
+		:op1 (v2 / vâng)
+		:op2 (y / yêu
+			:ARG0 (e / em)
+			:ARG1 (a / anh)))
+	:ARG2 e)
+
+#sent: hãy cố gắng mà sống hạnh phúc ...
+(c / cố gắng
+	:ARG1 (s / sống
+		:manner (h / hạnh phúc))
+	:mod (h2 / hãy))
+
+#sent: hãy cố gắng mà sống hạnh phúc ...
+(c / cố gắng
+	:ARG1 (s / sống
+		:mod (h / hạnh phúc)))
+
+#sent: - thế gió ...
+(g / gió
+	:mod (t / thế))
+
+#sent: em là một cái hoa mà .
+(h / hoa
+	:classifier (c / cái)
+	:domain (e / em))
+
+#sent: gió mát ban đêm tốt cho em lắm .
+(t / tốt
+	:ARG0 (g / gió
+		:mod (m / mát)
+		:time (d / date-entity :dayperiod (đ / đêm)))
+	:ARG1 (e / em)
+	:degree (l / lắm))
+
+#sent: em có móng vuốt của em .
+(c / có
+	:ARG0 (e / em)
+	:ARG1 (m / móng vuốt
+		:poss e))
+
+#sent: rồi nàng nói thêm :
+(n / nói
+	:ARG0 (n2 / nàng)
+	:manner (t / thêm))
+	
+
+#sent: - à !
+(a / à
+	:mode expressive)
+
+#sent: anh đã quyết ra đi mà .
+(q / quyết
+	:ARG0 (a / anh)
+	:tense (đ / đã)
+	:ARG1 (r / ra
+		:mod (đ2 / đi)))
+
+#sent: ngươi ngáp nữa đi .
+(n / ngáp
+	:ARG0 (n2 / ngươi)
+	:manner (n3 / nữa
+		:mod (đ / đi)))
+
+#sent: đó là lệnh ta .
+(l / lệnh
+	:poss (t / ta)
+	:domain (đ / đó))
+
+#sent: rồi em lại cười nữa .
+(c / cười
+	:manner (l / lại)
+	:ARG0 (e / em))
+
+#sent: ông mãi mãi là bạn tôi .
+(b / bạn
+	:poss (t / tôi)
+	:mod (m / mãi mãi)
+	:domain (ô / ông))
+
+#sent: - a !
+(a / a
+	:mode expressive)
+
+#sent: em lại cười thêm nữa .
+(c / cười
+	:manner (l / lại)
+	:ARG0 (e / em)
+	:manner (t / thêm))
+
+#sent: - đúng thế ...
+(đ / đúng
+	:mod (t / thế))
+
+#sent: - đúng thế ...
+(đ / đúng
+	:mod (t / thế))
+
+#sent: - ban đêm , ông sẽ nhìn sao .
+(n / nhìn
+	:ARG0 (ô / ông)
+	:ARG1 (s / sao)
+	:time (d / date-entity 
+		:dayperiod (b / ban đêm)))
+			
+
+#sent: tất cả các ngôi sao đều nở hoa .
+(n / nở
+	:ARG0 (s / sao
+		:classifier (n2 / ngôi)
+		:quant (t / tất cả))
+	:ARG1 (h / hoa)
+	:mod (đ / đều))
+
+#sent: nhưng em bảo tôi :
+(n / nhưng
+	:ARG2 (b / bảo
+		:ARG0 (e / em)
+		:ARG1 (t / tôi))
+
+#sent: em bảo tôi :
+(b / bảo
+	:ARG0 (e / em)
+	:ARG1 (t / tôi))
+
+#sent: - đúng thế ...
+(đ / đúng
+	:mod (t / thế))
+
+#sent: nhưng bức vẽ của tôi chắc là kém đẹp hơn người mẫu nhiều .
+(n / nhưng
+	:ARG2 (k / kém
+		:ARG0 (v / vẽ
+			:classifier (b / bức)
+			:poss (t / tôi))
+		:degree (n2 / nhiều)
+		:mod (đ / đẹp)
+		:compared-to (h / hơn
+			:degree (n3 / nhiều)
+			:ARG1 (n4 / người mẫu))))
+
+#sent: xin nhớ là lúc ấy tôi đang ở cách mọi chỗ có người hàng ngàn dặm .
+ (ở / ở
+	:time (l / lúc)
+	:ARG0 (t / tôi)
+	:tense (đ / đang)
+	:ARG0-of (c / cách
+		:mod (c2 / chỗ
+			:ARG1 (c3 / có
+				:ARG1 (n3 / người)))
+		:unit (d / dặm
+			:mod (h / hàng)
+			:quant (n2 / ngàn))))
+
+#sent: loài hoa thường hay mâu thuẫn !
+(m / mâu thuẫn
+	:ARG0 (h / hoa
+		:classifier (l / loài))
+	:frequency (t / thường)
+	:frequency (h2 / hay))
+	
+
+#sent: ông hoàng nhỏ ngạc nhiên vì không thấy nàng trách móc .
+(n / ngạc nhiên
+	:ARG0 (h / hoàng
+		:classifier (ô / ông)
+		:mod (n2 / nhỏ))
+	:cause (t / thấy
+		:polarity -
+		:ARG1 (t2 / trách móc
+			:ARG0 (n3 / nàng))))
+
+#sent: em đứng sững , tay cầm nguyên cái bầu kính .
+(đ / đứng
+	:ARG0 (e / em)
+	:maner (s / sững)
+	:ARG0-of (c / cầm
+		:ARG0 (t / tay)
+		:ARG1 (b / bầu kính
+			:classifier (c2 / cái))))
+
+#sent: đó là một nhà vua chuyên chế .
+(n / nhà vua
+	:mod (c / chuyên chế)
+	:domain (đ / đó))
+
+#sent: ấy là lỗi của ta . "
+(l / lỗi
+	:poss (t / ta)
+	:domain (ấ / ấy))
+
+#sent: cái hành tinh thật là bé .
+(b / bé
+	:ARG0 (h / hành tinh
+		:classifier (c / cái))
+	:mod (t / thật))
+
+#sent: ngài không tha thứ được sự trái lệnh .
+(t / tha thứ
+	:ARG0 (n / ngài)
+	:polarity -
+	:ARG1(t2 / trái
+		:classifier (s / sự)
+		:mod (l / lệnh)))
+
+#sent: - trên tất cả .
+(t / tất cả
+	:mod (t2 / trên))
+
+#sent: - tôi ngồi được không ạ ? ông hoàng nhỏ rụt rè hỏi .
+(h / hỏi
+	:ARG0 (h2 / hoàng
+		:classifier (ô / ông)
+		:mod (n / nhỏ))
+	:mod (r / rụt rè)
+	:ARG1 (n2 / ngồi
+		:ARG0 (t / tôi)
+		:mode interrogative))
+
+#sent: - trên tất cả ?
+(t / tất cả
+	:mod (t2 / trên)
+	:mode interrogative)
+
+#sent: nhưng ông hoàng bé nhỏ lấy làm kinh ngạc .
+(l / lấy làm
+	:contrast (n / nhưng)
+	:ARG0 (ô / ông hoàng
+		:mod (b / bé nhỏ))
+	:ARG0-of (k / kinh ngạc))
+
+#sent: đức vua trả lời .
+(t / trả lời
+	:ARG0 (đ / đức vua)
+
+#sent: - chắc chắn rồi , vua trả lời em .
+(c / chắc chắn
+	:ARG0 (t / trả lời
+		:ARG0-of (v / vua)
+		:ARG1 (e / em)))
+
+#sent: chúng lập tức tuân lệnh .
+(t / tuân
+	:ARG0 (c / chúng)
+	:ARG1 (l / lệnh)
+	:manner (l2 / lập tức))

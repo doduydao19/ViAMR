@@ -1,0 +1,118 @@
+:ARG0-of	xcomp	conj, obj, acl:subj, root, parataxis		|	VERB	VERB, N, PROPN		|			
+:ARG0-of	ccomp	root		|	VERB	VERB		|			
+:ARG0-of	acl:subj	obj	root, advcl	|	VERB	N, PROPN	VERB	|			
+:ARG0-of	dislocated	root		|	PROPN, N	VERB		|			
+:ARG0-of	acl:subj	root, obj	root	|	VERB	VERB, PROPN		|			
+:ARG0-of	acl:subj	nmod:poss		|	VERB	N, PROPN		|			
+:ARG0-of	nsubj	parataxis	root	|	PROPN, N	VERB	VERB	|			
+:ARG0-of	advcl	acl:subj		|	PROPN, N	VERB		|			
+:ARG0	nsubj	root, parataxis, advcl:objective		|	PROPN, N	VERB, N		|	tôi		
+:ARG0	nsubj	xcomp, ccomp	root	|	PROPN, N, DET	VERB	VERB	|			
+:ARG0	nsubj	conj, ccomp, acl		|	N, PROPN, DET	VERB		|			
+:ARG0	nsubj	acl	root	|	N, PROPN	ADJ	VERB	|			
+:ARG0	obl:agent, nsubj			|	PROPN, N			|			
+:ARG0	acl:subj	advmod		|	VERB	N		|			
+:ARG1-of	acl:subj	obl		|	VERB	PROPN, N		|			
+:ARG1-of	xcomp, ccomp	ccomp	root	|	VERB	VERB	VERB	|			
+:ARG1-of	nsubj:xsubj	xcomp		|	PROPN, N	VERB		|			
+:ARG1	obj	root, acl:subj, parataxis, xcomp, advcl:objective		|	PROPN, N	ADV, VERB, N		|			
+:ARG1	obj	xcomp	root	|	PROPN, N	VERB	VERB	|			
+:ARG1	obj	conj	xcomp, root	|	PROPN, N	ADV, VERB, N	VERB	|			
+:ARG1	obj	compound:svc	root, xcomp	|	PROPN, N	VERB	VERB	|			
+:ARG1	nsubj:pass	root, parataxis, advcl:objective		|	PROPN, N	VERB, N		|			
+:ARG1	nsubj:pass	xcomp, ccomp	root	|	PROPN, N, DET	VERB	VERB	|			
+:ARG1	nsubj:pass	conj, ccomp, acl		|	N, PROPN, DET	VERB		|			
+:ARG1	obj			|	PROPN, N			|			
+:ARG1	det:clf	advmod		|	N	N		|			
+:ARG2-of	xcomp	xcomp	ccomp	|	VERB	VERB	VERB	|			
+:ARG2	iobj	root		|	PROPN, N	VERB		|			
+:ARG2	obl	root, ccomp		|	PROPN, N	VERB		|			
+:ARG2	obl:comp	root		|	N, PROPN	VERB		|			
+:ARG2	obl:iobj	root		|	N, PROPN	VERB		|			
+:ARG2	obl			|	PROPN, N			|			
+:ARG3				|				|			
+:ARG4				|				|			
+:ARG5				|				|			
+:op1	parataxis	conj		|	VERB	NVERB		|			
+:op1	conj, cc	conj		|	CONJ	N		|			
+:op2				|				|			
+:manner	case	obl	root	|	SCONJ	N, PROPN	ADJ, VERB, N, PROPN	|			
+:accompainer	case	obl:with, obl:comp		|	SCONJ	N, PROPN		|	với, đối với		
+:domain	nsubj	root		|	N, PROPN			|	đó, đây		
+:domain	obl:about			|	N			|			
+:domain	case	obl		|	ADV	N, PROPN		|	trong, về		
+:poss	nmod:poss			|	PROPN, N			|			
+:purpose	advcl:objective			|	VERB			|			
+:quant	nummod	obj, root, nsubj		|	NUM	N, PROPN		|			
+:mod	det:pmod			|	PROPN, N			|			
+:mod	acl			|	ADJ						
+:classifier	clf, det:clf			|	N			|			
+:direction	compound:dir			|	VERB			|			
+:direction	case			|				|	trên, dưới, lên, xuống, phía, trong, ngoài, giữa		
+:condition	advcl	root, conj		|				|	nếu		
+:cause	advcl	root, conj		|				|	vì		
+:mod	advmod, advmod:adj, advcl, ccomp, conj, compound:amod, obl:comp, acomp, obl:adj			|	ADJ, ADV, X, NUM, N. VERB			|			
+:topic	obj	root		|	N, PROPN	VERB		|		vẽ	
+:quant	nummod			|	NUM			|			
+:manner	obl	xcomp		|	NUM	VERB		|	một mình		
+:beneficiary	case	obl:iobj, obl:comp	xcomp, root	|	SCONJ, ADV	N, PROPN	VERB	|			
+*	case			|				|	của, cho		
+*	cop			|				|	là		
+*	discourse			|	PRT			|			
+:mod	compound:pron			|				|	ấy, ta, này, nay, đó		
+*	advmod			|				|	tự		
+*	aux:pass			|				|	bị, được		
+*	nummod			|	NUM			|	một		
+*	cc			|				|	và		
+:duration	case	obl:tmod		|	ADV	N		|	trong	khi	
+:mod	case			|				|	trong		
+:polarity	advmod:neg			|				|	không, chưa, chẳng, không thể, cóc, không phải, chẳng phải, cóc phải		
+:tense	advmod			|				|	đã, đang, sẽ		
+:manner	obl:comp			|				|	bằng		
+:contrast	mark, cc, fixed			|				|	nhưng, nhưng mà		
+:poss	compound:pron	obl, compound		|				|	tôi, mình		
+:dayperiod	obl:tmod			|	N			|	đêm, ngày, trưa, chiều, đêm tối, ban đêm, ban ngày, ban trưa, buổi sáng, buổi trưa, buổi tối, bình minh		
+:unit	obl:tmod			|				|	ngày, tháng, năm		
+:unit	nummod	obj		|	N	N		|		dặm	
+:time	obl:tmod			|	N, ADV			|	bây giờ, sau, lúc, chiều tối		
+:time	obl:tmod, acl:tmod			|	N, PROPN, VERB			|			
+:mod	advmod:adj			|				|	này, kia, ngang		
+:obligate	aux, advmod:adj			|				|	phải, cần, hẳn		
+:recommend	aux, mark			|				|	nên		
+:concession	aux, advmod, mark, cc			|				|	nếu như, dù, cho dù, rằng		
+:age	nummod	nmod	obl:tmod	|	NUM	N	N	|		tuổi	
+:unit	nmod			|				|	tuổi		
+*	case			|				|	từ		
+:ord	compound	obl:tmod		|	N	N		|			
+:possible	aux			|				|	có thể		
+:amr-unknow	det:clf	obj		|				|	gì, đâu, chăng		
+:degree	discourse			|	ADV			|			
+*	mark			|	SCONJ			|			
+*	list	root		|	N, AUX, ADJ	N, AUX, ADJ		|			
+*	cop	root		|	AUX	N		|	là		
+*	cop			|				|	là		
+:cause	mark, fixed			|	SCONJ, ADV			|	vì, do, bởi vì, bởi		
+:manner	xcomp:adj	root		|	ADJ	VERB		|			
+:purpose	mark:pcomp	advcl:objective		|	ADV	VERB		|	để		
+*	mark:pcomp			|				|	để		
+:manner	acomp	root, acl		|	ADJ	VERB		|			
+:mod	compound:prt			|	VERB			|			
+*	case	SCONJ		|				|	với, đối với		
+*	case	obl:about, obl		|				|		về	
+:location	case	obl		|	ADV	N		|	ở, tại		
+:mod	nmod	obl		|	N	N		|			
+:mod	amod	nsubj		|	ADJ	N		|			
+:part-of	compound	obl		|	N	N		|			
+:ARG1	advcl	root		|	AUX	ADJ, N, PROPN		|	muốn		
+:mod	acl:subj	root, nsubj, obj		|	ADJ	N, PROPN		|			
+*	det			|	DET			|	những		
+:part-of	compound:svc	root		|	VERB	VERB		|			
+*	case			|	VERB			|	vào		
+*	cc			|	SCONJ			|	rồi		
+:ARG0-of	xcomp	xcomp	root	|	VERB	VERB	VERB	|			
+:mod	amod	conj, obl:tmod		|	ADJ	N		|			
+:ARG0-of	conj	root		|	VERB	VERB		|			
+:ord	nummod	nmod		|	NUM	N		|	hai, ba, bốn, năm, sáu, bảy, tám, chín, mười	thứ	
+*	expl			|	PROPN			|	nó		
+*	det	obj		|	PROPN	N		|	cả		
+:mod	nmod	root		|	ADJ	N		|			
